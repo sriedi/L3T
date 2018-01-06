@@ -4,11 +4,94 @@
 #				- The scopes
 #				- The OR blocs
 
+<<<<<<< HEAD
 jamais = {
 	custom_tooltip = { text = TOOLTIP_JAMAIS }
 	hidden_tooltip = { is_at_sea = no }
 }
 
+=======
+
+###RESSOURCES
+vigne_dispo = {
+	custom_tooltip = { text = vigne_dispo }
+	OR = {
+		has_province_modifier = agriculture2_vigne_trade
+		FROMFROM = { has_holding_modifier = agriculture2_vigne }
+	}
+}
+orge_dispo = {
+	custom_tooltip = { text = orge_dispo }
+	OR = {
+		has_province_modifier = agriculture2_cereales_trade
+		FROMFROM = { has_holding_modifier = agriculture2_cereales }
+	}
+}
+bois_brut_dispo = {
+	custom_tooltip = { text = bois_brut_dispo }
+	OR = {
+		FROMFROM = { has_holding_modifier = foret2_bois } #this icon will disapear once a further level is reached
+		FROMFROM = { has_holding_modifier = foret3_charbon }
+		FROMFROM = { has_holding_modifier = foret3_planche }
+	}
+}
+planche_dispo = {
+	custom_tooltip = { text = planche_dispo }
+	OR = {
+		has_province_modifier = foret3_planche_trade
+		FROMFROM = { has_holding_modifier = foret3_planche }
+	}
+}
+charbon_dispo = {
+	custom_tooltip = { text = charbon_dispo }
+	OR = {
+		has_province_modifier = foret3_charbon_trade
+		FROMFROM = { has_holding_modifier = foret3_charbon }
+	}
+}
+
+ressource_L2_dispo = {
+	custom_tooltip = { text = ressource_L2_dispo }
+	FROMFROM = { 
+		OR = {		
+			has_holding_modifier = agriculture2_cereales
+			#has_title_flag = blabla ###for ressources that any icon is displayed ##see if it work properly as trigger for markets
+			has_holding_modifier = agriculture2_vigne
+			has_holding_modifier = agriculture3_farine
+			has_holding_modifier = agriculture3_vin
+			has_holding_modifier = agriculture3_biere
+			has_holding_modifier = nourriture_1
+			##### !!! à compléter
+		}
+	}
+}
+
+###REGIONS
+region_vitis_vinifera = {
+	OR = {
+		AND = { #LCDA map
+			has_global_flag = running_LCDA
+			region = world_alps
+		}
+		AND = { #SWMH+vanilla map
+			NOT = { has_global_flag = running_LCDA }
+			OR = {
+				region = world_europe_west_germania
+				region = world_europe_west_francia
+				region = world_europe_west_iberia
+				region = world_europe_south_east #world_europe_south
+				region = world_europe_south_italy #world_europe_south
+				region = world_asia_minor
+				region = world_middle_east_jerusalem
+				region = world_persia
+				region = world_africa_north
+			}
+		}
+	}
+}
+
+###ECO
+>>>>>>> 800a35b35f89df8b111806a55db542e4f91f3534
 is_active_fonderie_by_neighbor = {
 	AND = { # Use AND because it will be use in a OR bloc
 		OR = {

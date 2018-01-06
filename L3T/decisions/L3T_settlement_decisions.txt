@@ -276,16 +276,16 @@ settlement_decisions = {
 								ROOT = { remove_building = CA_AGRI_moulin_L1 }
 								add_building = CA_AGRI_moulin_L1
 							}
-							if = {
-								limit = { ROOT = { has_building = CA_FISH_pisci_L2 } }
-								ROOT = { remove_building = CA_FISH_pisci_L2}
-								add_building = CA_FISH_pisci_L2
-							}
-							if = {
-								limit = { ROOT = { has_building = CA_FISH_pisci_L1 } }
-								ROOT = { remove_building = CA_FISH_pisci_L1 }
-								add_building = CA_FISH_pisci_L1
-							}
+#							if = {
+#								limit = { ROOT = { has_building = CA_FISH_pisci_L2 } }
+#								ROOT = { remove_building = CA_FISH_pisci_L2}
+#								add_building = CA_FISH_pisci_L2
+#							}
+#							if = {
+#								limit = { ROOT = { has_building = CA_FISH_pisci_L1 } }
+#								ROOT = { remove_building = CA_FISH_pisci_L1 }
+#								add_building = CA_FISH_pisci_L1
+#							}
 							if = {
 								limit = { ROOT = { has_building = CA_FISH_peche_L2 } }
 								ROOT = { remove_building = CA_FISH_peche_L2 }
@@ -780,16 +780,16 @@ settlement_decisions = {
 							ROOT = { remove_building = CA_AGRI_moulin_L1 }
 							add_building = CA_AGRI_moulin_L1
 						}
-						if = {
-							limit = { ROOT = { has_building = CA_FISH_pisci_L2 } }
-							ROOT = { remove_building = CA_FISH_pisci_L2}
-							add_building = CA_FISH_pisci_L2
-						}
-						if = {
-							limit = { ROOT = { has_building = CA_FISH_pisci_L1 } }
-							ROOT = { remove_building = CA_FISH_pisci_L1 }
-							add_building = CA_FISH_pisci_L1
-						}
+#						if = {
+#							limit = { ROOT = { has_building = CA_FISH_pisci_L2 } }
+#							ROOT = { remove_building = CA_FISH_pisci_L2}
+#							add_building = CA_FISH_pisci_L2
+#						}
+#						if = {
+#							limit = { ROOT = { has_building = CA_FISH_pisci_L1 } }
+#							ROOT = { remove_building = CA_FISH_pisci_L1 }
+#							add_building = CA_FISH_pisci_L1
+#						}
 						if = {
 							limit = { ROOT = { has_building = CA_FISH_peche_L2 } }
 							ROOT = { remove_building = CA_FISH_peche_L2 }
@@ -1096,6 +1096,7 @@ settlement_decisions = {
 			factor = 0
 		}
 	}
+<<<<<<< HEAD
 	swap_to_indus = { #totoro
 		only_rulers = yes
 		filter = all
@@ -1185,4 +1186,6 @@ settlement_decisions = {
 		revoke_allowed = { always = no }
 		ai_will_do = { factor = 0 }
 	}
+=======
+>>>>>>> 800a35b35f89df8b111806a55db542e4f91f3534
 }

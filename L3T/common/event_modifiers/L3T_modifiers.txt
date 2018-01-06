@@ -65,7 +65,7 @@
 # 105 - Torch				- 106
 # 107 - Panda				- 108
 # 109 - Dragon				- 110
-#end of vanilla 2.7.x
+#end of vanilla 2.8.x
 
 #111 - ELEV cuir (toile marron)
 #112 - ELEV draps (toile rouge)
@@ -182,16 +182,94 @@
 #253 - ELEV viande boeuf brun
 
 ###ECO+
-agriculture1			= {icon = 238 local_revolt_risk = -0.01} 
-agriculture2_cereales	= {icon = 239}	
-agriculture2_fruits	= {icon = 243}	
-agriculture2_legumes = {icon = 245}	
-agriculture2_vigne	= {icon = 246} 
-agriculture3_farine 	= {icon = 240}	
-agriculture3_cidre	= {icon = 244 garrison_size  = 0.05}				
-agriculture3_vin 	= {icon = 247 garrison_size  = 0.05}
-agriculture3_biere		= {icon = 241}	
-agriculture4_pain 		= {icon = 242 local_revolt_risk = -0.05}
+
+###General design 
+
+##ressources will give a holding modifier if :
+#-it is usable within the holding (ex. raw wood)
+#-it is exportable (it is a requirement to activate export) (ex. charcoal)
+
+##lower ressources will lose their holding modifier when :
+#-it is used y a further level of ressource (ex; raw wood will by replaced by lumber or charcoal)
+
+##ressources won't give an holding modifier, but directly a province modifier (once market requirement is fulfilled), if : 
+#-it has no use within the holding (ex. glass)
+
+##final products made in towns :
+#-won't give holding modifiers
+#-will give province modifiers
+
+##food
+#-generic food /non trade-able/ won't give holding modifiers (ex. fruits, cheese, vegetables...)
+#-generic food is counted on province level for the general food modifier 
+#-transformable food (meat, fish) will give a holding modifier as they are exportable
+#-trade-able food (salted meat, smoked fish) will be displayed only on province level /same as final products
+
+##quality for beer and wine
+#-will be dealt through a holding variable with a yearly chance of progression
+#-significant bonuses will be brought by either additional buildings providing ingredients (maybe ?) and events.
+#ideas of Q elements : hop, honey, spices, barrels, methods etc. 
+
+
+NEVER = {icon = 96} #to prevent some buildings to be ever built (vanilla stuff i dont want but can't remove) 
+
+	#holding_modifiers #from raw
+agriculture2_cereales = {icon = 239} #0.3 income from the required buildings
+agriculture2_vigne = {icon = 246} #0.3 income from the required buildings
+	#holding_modifiers #from ressources
+agriculture3_farine = {icon = 240}	
+agriculture3_vin = { 
+	icon = 247
+	levy_size  = 0.05
+	local_tax_modifier = 0.03
+}
+agriculture3_biere = {
+	icon = 241
+	garrison_size  = 0.05
+	local_tax_modifier = 0.02
+}
+nourriture_1 = { #fruits(1), légumes(1), pain(4), fromage(4), viande(4), poisson(4), salaison(5), fumaison(5)
+	icon = 242 ##bread icon currently
+	local_tax_modifier = 0.01
+}
+	#province_modifiers
+agriculture1 = { #base ressource
+	icon = 238
+	local_revolt_risk = -0.01
+}
+agriculture2_cereales_trade	= {
+	icon = 239
+	land_morale = 0.02
+}
+#agriculture2_fruits = {icon = 243}	 #0.4 income from the required buildings
+agriculture2_legumes = {icon = 245}  #0.4 income from the required buildings	
+#agriculture3_cidre = {icon = 244 garrison_size  = 0.05}				
+agriculture3_vin_trade = { 
+	icon = 247
+	levy_size  = 0.05
+	local_tax_modifier = 0.03
+}
+agriculture3_biere_trade = {
+	icon = 241
+	garrison_size  = 0.05
+	local_tax_modifier = 0.02
+}
+
+nourriture_1_province = { #non trade-able
+	icon = 242
+	local_revolt_risk = -0.01
+	local_tax_modifier = 0.01
+}
+nourriture_2_province = { #non trade-able
+	icon = 242
+	local_revolt_risk = -0.03
+	local_tax_modifier = 0.02
+}
+nourriture_3_province = { #non trade-able
+	icon = 242
+	local_revolt_risk = -0.05
+	local_tax_modifier = 0.03
+}
 
 agriculture3_biere_Q1 = {icon = 145}
 agriculture3_biere_Q2 = {icon = 146}
@@ -200,23 +278,66 @@ agriculture3_vin_Q1 = {icon = 148}
 agriculture3_vin_Q2 = {icon = 149}
 agriculture3_vin_Q3 = {icon = 150}
 			
-elevage1		= {icon = 248}
-elevage2_laine	= {icon = 250}	
-elevage2_boeuf	= {icon = 249	local_tax_modifier = 0.01}	
-elevage2_fromage= {icon = 252}  
-elevage2_cheval = {icon = 133} 
-elevage4_drap	= {icon = 112}	
-elevage3_viande	= {icon = 253 levy_size = 0.05}
-elevage3_etoffe	= {icon = 251}	
-elevage3_cuir	= {icon = 111}
+elevage1 = {icon = 248}
+elevage2_laine = {
+	icon = 250
+	local_tax_modifier = 0.01
+}
+elevage2_boeuf = {
+	icon = 249
+	local_tax_modifier = 0.01
+}
+elevage2_fromage = {icon = 252} 	 #0.4 income from the required buildings
+ 
+elevage2_cheval = {
+	icon = 133
+	local_tax_modifier = 0.05
+	light_cavalry_offensive = 0.03 #see if this is applied by building or not, and on which level (holding/province)
+	light_cavalry_defensive = 0.03
+	knights_offensive = 0.03
+	knights_defensive = 0.03
+}
+elevage4_drap = {
+	icon = 112
+	local_tax_modifier = 0.07	
+}
+elevage3_viande = {
+	icon = 253
+	levy_size = 0.05
+}
+elevage3_etoffe	= {
+	icon = 251
+	local_tax_modifier = 0.03
+}
+elevage3_cuir = {
+	icon = 111
+	local_tax_modifier = 0.02
+}
 
-foret1			= {icon = 113}
-foret2_expl		= {icon = 113} #caché
-foret2_bois		= {icon = 114 local_tax_modifier = 0.01}	foret3_planche	= {icon = 116 local_build_time_modifier = -0.03}		
-foret2_charbon	= {icon = 115 local_tax_modifier = 0.01}	foret3_verre	= {icon = 117}	
+	#holding_modifiers #from raw
+foret2_bois = {icon = 114 local_tax_modifier = 0.01 }	
+	
+	#holding_modifiers #from ressources
+foret3_charbon = {icon = 115 local_tax_modifier = 0.01 }	
+foret3_planche = {icon = 116 local_build_time_modifier = -0.03 }
+foret4_verre = {icon = 117 }
 
-foret2_chasse = { 	tax_income = 0.1 local_revolt_risk = 0.04	icon = 118} #contrepartie loi, réduction max de 4% à 1%
-foret2_holy   = { 	tax_income = 0.1 local_revolt_risk = 0.04	icon = 119} #contrepartie loi, réduction max de 4% à 1%
+	#province_modifiers
+foret1 = {icon = 113 }
+foret2_expl = {icon = 114 } #caché
+foret2_chasse = { tax_income = 0.1 local_revolt_risk = 0.04	icon = 118} #contrepartie loi, réduction max de 4% à 1%
+foret2_holy   = { tax_income = 0.1 local_revolt_risk = 0.04	icon = 119} #contrepartie loi, réduction max de 4% à 1%
+
+foret3_charbon_trade = {
+	icon = 115
+}
+foret3_planche_trade = {
+	icon = 116
+}	
+	
+foret4_verre_trade = {
+	icon = 117
+}	
 
 pierre1					= {icon = 120}
 pierre2_pierre_brute	= {icon = 121}
@@ -240,6 +361,9 @@ peche1					= {icon = 130}	pisci1			= {icon = 130}
 peche2_poisson			= {icon = 131}	pisci2_poisson	= {icon = 131}
 peche_pisci3_fumaison	= {icon = 132 local_revolt_risk = -0.03}
 
+has_fishing_harbour = {icon = 130} #hidden only
+has_shipyard = {icon = 130} #hidden only
+
 peaux2_fourrure	= {icon = 136 	tax_income = 0.2}
 joyaux2_bijoux	= {icon = 137 	tax_income = 0.1}
 epices2_epices	= {icon = 138 	tax_income = 0.3}
@@ -248,7 +372,15 @@ epices2_epices	= {icon = 138 	tax_income = 0.3}
 2connexion_commerciale = {icon = 1 } #hidden
 noeud_commercial_annexe = {icon = 180 city_tax_modifier = 0.03 }
 prosperity_modifier_2 = {icon = 179 local_tax_modifier = 0.05 } #retagged for using the on map 3D icon from vanilla prosperity L2
+<<<<<<< HEAD
 prosperity_modifier_1 = {icon = 179 } #using the on map 3D icon from vanilla prosperity L1
+=======
+#pour nodes, chariotte+sacs
+prosperity_modifier_1 = {icon = 179 } #using the on map 3D icon from vanilla prosperity L1 
+#pour route, sac de céréales
+#this modifier is hidden
+
+>>>>>>> 800a35b35f89df8b111806a55db542e4f91f3534
 #noeud_commercial_primaire = {icon = 137 local_tax_modifier = 0.05 }
 redaction_dun_cadastre  = {icon = 2 local_tax_modifier = 0.01 }
 interrupted_by_war = {icon = 1 } #hidden
@@ -514,6 +646,10 @@ justice_rendue_char = { #character modifier
 	general_opinion = 7
 	monthly_character_prestige = 0.2
 	icon = 237
+}
+defrichage_actif = {
+	icon = 158
+	local_tax_modifier =  0.02
 }
 
 illegal_cut = {}

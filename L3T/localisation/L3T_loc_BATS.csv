@@ -5,11 +5,11 @@
 #;;;;;;;;;;;;;;x;
 #;;bâtimentS XYLO;;;;;;;;;;;;x
 #;;x;;;;;;;;;;;;x
-CA_chasse_L1;Hunting Lodge;Loge de Chasse;;;;;;;;;;;;x
+CA_chasse_L1;Hunting lodge;Loge de chasse;;;;;;;;;;;;x
 CA_chasse_L1_desc;A small but comfortable cabin in the woods to which one may retire and rest throughout the many days of hunting customary for the nobility.;Il s'agit ici d'une grande cabane en bois permettant de s'abriter et de se retrouver lors de campagnes de chasse qui durent quelques jours.;;;;;;;;;;;;x
-CA_chasse_L2;Hunting Manor;Logis de Chasse;;;;;;;;;;;;x
+CA_chasse_L2;Hunting manor;Logis de chasse;;;;;;;;;;;;x
 CA_chasse_L2_desc;This modest manor in the woods offers all of the comforts and accomodations worthy of a lord. It also has the advantage of being removed from the intrigues of the court.;Ce refuge offre un plus grand confort et une capacité d'hébergement plus importante. Il a l'avantage aussi d'être à l'abri des regards indiscrets de la cour...;;;;;;;;;;;;x
-CA_chasse_L3;Hunting Mansion;Manoir de Chasse;;;;;;;;;;;;x
+CA_chasse_L3;Hunting mansion;Manoir de chasse;;;;;;;;;;;;x
 CA_chasse_L3_desc;This luxurious mansion hidden away in the seigniorial forests has all the airs of a small castle, able to extravagantly receive and accommodate a large hunting party for many days.;Avec ces airs de maison forte, cet pied-à-terre forestier offre tout le confort d'un château pour donner des banquets et recevoir nos hôtes de marque lors de longues parties de chasse.;;;;;;;;;;;;x
 TP_herboriste_L1;Herbalist's Quarters;Herboriste;;;;;;;;;;;;x
 TP_herboriste_L1_desc;The old herbalist who has taken up residence here can regularly be seen wandering the forest searching for medicinal herbs. His skills and knowledge prove most useful in times of illness.;L'herboriste récolte dans les alentours et cultive des plantes médicinales. Un savoir fort apprécié et des plus utiles quand la maladie survient.;;;;;;;;;;;;x
@@ -50,56 +50,38 @@ reseau_provincial_L2;Underground Trade Network II;Commerce parallèle organisé;;;
 reseau_provincial_L2_desc;This indicates the level of the influence of this crime network over the province.;On peut trouver partout dans la province de fort belles marchandises préalablement subtilisées.;;;;;;;;;;;;x
 reseau_provincial_L3;Underground Trade Network III;Commerce parallèle efficace;;;;;;;;;;;;x
 reseau_provincial_L3_desc;This indicates the level of the influence of this crime network over the province.;L'efficacité du commerce souterrain est surprenante : marchandises moins chères que sur le marché et parfois de meilleure qualité, les bourgeois en raffolent ! ;;;;;;;;;;;;x
-#;;x;;;;;;;;;;;;x
-#FERME CEREALIERE (plaine et terres arables);;;;;;;;;;;;;;;x
-CA_AGRI_cereale_L1;Cereals: Land Clearance;CEREALES : Plaine Défrichée;;;;;;;;;;;;x;
-CA_AGRI_cereale_L1_desc;This land has been cleared and prepared for the large-scale cultivation of cereals.;Ce terrain a été défriché et devrait bientôt pouvoir produire des céréales.;;;;;;;;;;;x
-CA_AGRI_cereale_L2;Cereals: Cultivated Fields;CEREALES : Champs Cultivés;;;;;;;;;;;;x;
-CA_AGRI_cereale_L2_desc;This land supports the large-scale cultivation of multiple crops of cereals according to the rhythm of the seasons.;Ce terrain comporte maintenant plusieurs champs cultivés où se succèdent différents assolements triennaux céréaliers aux rythmes des saisons.;;;;;;;;;;;;x;
-CA_AGRI_cereale_L3;Cereals: Farming Estates;CEREALES : Exploitation Agricole;;;;;;;;;;;;x;
-CA_AGRI_cereale_L3_desc;The local lord holds authority over multiple estates upon which thousands of peasants toil to cultivate a vast surplus of cereals.;Ce qui était naguère un tas de broussailles est maintenant une exploitation agricole où la culture du blé et du froment sont menées de main de maître.;;;;;;;;;;;;x;
-#VERGER (coteaux);;;;;;;;;;;;;;;x
-CA_AGRI_verger_L1;Fruits: Small Orchards;FRUITS : Vergers Épars;;;;;;;;;;;;x
-CA_AGRI_verger_L1_desc;Small orchards tended to by a few dozen workers dot the countryside, but more fertile land is available for  large-scale cultivation.;;;;;;;;;;;;;x
-CA_AGRI_verger_L2;Fruits: Large Orchards;FRUITS : Grands Vergers;;;;;;;;;;;;x
-CA_AGRI_verger_L2_desc;Through considerable investments in expanding the scale of production, large orchards now span the many hills and fields of this province.;;;;;;;;;;;;x
-CA_AGRI_verger_L3;Fruits: Seigneurial Orchards;FRUITS : Vergers Seigneuriaux;;;;;;;;;;;;x
-CA_AGRI_verger_L3_desc;The local lord has taken control over the majority of the fruit orchards in this province and expanded them further. Thousands of peasants now toil in the groves harvesting fruit from trees bending under their own weight to send to market.;Les vergers couvrent à présent une bonne partie des coteaux et les arbres plient sous le poids de leurs fruits abondants.;;;;;;;;;;;;x;
-#ELEVAGE ovin (sauf montagne);;;;;;;;;;;;;;;x
+
+#ELEVAGE ovin pour laine (coteaux et montagne);;;;;;;;;;;;;;;x
 CA_ELEV_ovin_L1a;Wool: Pasturages;BETAIL : Pâturages;;;;;;;;;;;;x;
 CA_ELEV_ovin_L1a_desc;Putting sheep out to pasture on the vast grazing lands in this province forms the foundation of a stable economy, but land use is inefficient and there is more than enough land to support larger herds.;Un endroit propice à la consommation de l'herbe, un met de choix pour les ovins sous la houlette des bergers et bergères venant des hameaux alentours.;;;;;;;;;;;;x;
 CA_ELEV_ovin_L2a;Wool: Enclosures;BETAIL : Enclos à ovins;;;;;;;;;;;;x;
 CA_ELEV_ovin_L2a_desc;Enclosing sheep herds allows more efficient use of grazing lands as well as better protection from predators and rustlers.;Un ensemble d'enclos a été construit de manière à concentrer davantage la production ovine et en faciliter la surveillance.;;;;;;;;;;;;x;
 CA_ELEV_ovin_L3a;Wool: Sheep Pens;BETAIL : Bergerie;;;;;;;;;;;;x;
 CA_ELEV_ovin_L3a_desc;Keeping the sheep penned reduces the risk of losing them to theft or predators. The establishment of proper infrastructure for the breeding and cultivation of large herds of sheep has delivered significant returns.;La bergerie accueille les ovins pour la nuit et leur apporte protection face aux prédateurs aux longues dents...;;;;;;;;;;;;x;
+#ELEVAGE bovin pour bétail (plaine et coteaux);;;;;;;;;;;;;;;x
+CA_ELEV_bovin_L1;Cattle: Pasturages;BETAIL : Pré;;;;;;;;;;;;x;
+CA_ELEV_bovin_L1_desc;Putting cattle out to pasture on the vast grazing lands in this province forms the foundation of a stable economy, but land use is inefficient and there is more than enough land to support larger herds.;Un pré pour les bovins a été délimité.;;;;;;;;;;;;x;
+CA_ELEV_bovin_L2;Cattle: Enclosures;BETAIL : Enclos à bovins;;;;;;;;;;;;x;
+CA_ELEV_bovin_L2_desc;Enclosing cattle herds allows more efficient use of grazing lands as well as better protection from predators and rustlers.;Sur le pré, un ensemble de barrières formant un enclos a été établi.;;;;;;;;;;;;x;
+CA_ELEV_bovin_L3;Cattle: Cattle Pens;BETAIL : Étable;;;;;;;;;;;;x;
+CA_ELEV_bovin_L3_desc;Keeping the cattle penned reduces the risk of losing them to theft or predators. The establishment of proper infrastructure for the breeding and cultivation of large herds of cattle has delivered significant returns.;Une étable accueillant les bêtes pour la nuit a été bâtie.;;;;;;;;;;;;x;
+#ELEVAGE pour monture (plaine, steppes et coteaux);;;;;;;;;;;;;;;x
+CA_ELEV_cheval_L1;Steppe Horses: Grazing Pastures;CHEVAUX : élevage;;;;;;;;;;;;x
+CA_ELEV_cheval_L1_desc;;Les chevaux ici pâturent librement et fournissent des bêtes de traits et plus rarement des montures.;;;;;;;;;;;;x
+CA_ELEV_cheval_L2;Steppe Horses: Horse Breeders;CHEVAUX : dressage;;;;;;;;;;;;x
+CA_ELEV_cheval_L2_desc;;Les animaux sont ici élevés pour servir de montures pour qui s'offrir les services d'un cheval;;;;;;;;;;;;x
+CA_ELEV_cheval_L3;Steppe Horses: Equestrian Training Yard;CHEVAUX : entraînement;;;;;;;;;;;;x
+CA_ELEV_cheval_L3_desc;;L'élevage et le dressage des chevaux n'a ici qu'un seul but : approvisionner la petite comme grande noblesse ou les plus fortunés. Les nobles bêtes servent à la chasse ou à la guerre.;;;;;;;;;;;;x
 #ELEVAGE ovin (alpage, montagne);;;;;;;;;;;;;;;x
-CA_ELEV_ovin_L1b;Cheese: Mountain Pasturage;BETAIL : Alpage;;;;;;;;;;;;x;
-CA_ELEV_ovin_L1b_desc;Although grazing land is limited in these lands, it is still sustainable to herd livestock for the production of dairy products.;Cette prairie d'altitude est fréquentée pendant toute la belle saison et offre aux ovins une herbe fleurie et savoureuse dont ils raffolent.;;;;;;;;;;;;x;
-CA_ELEV_ovin_L2b;Cheese: Mountain Enclosures;BETAIL : Refuge d'alpage;;;;;;;;;;;;x;
-CA_ELEV_ovin_L2b_desc;Enclosing the herds allows more efficient use of grazing lands as well as better protection from predators, rustlers, and the unfriendly mountain climate.;Tout juste un modeste abri en bois assorti d'un enclos pour les bêtes, assurant néanmoins de meilleures conditions d'élevage.;;;;;;;;;;;;x;
-CA_ELEV_ovin_L3b;Cheese: Mountain Hamlet;BETAIL : Hameau d'alpage;;;;;;;;;;;;x;
-CA_ELEV_ovin_L3b_desc;Small communities of shepherds have established hamlets centered around the breeding of livestock, increasing production and making more efficient use of shared land.;Tout juste quelques cabanes et abris saisonniers accueillant un petit groupe de bergers et leurs troupeaux paissant sur l'ensemble de l'alpage.;;;;;;;;;;;;x;
-#BOIS (plaine + foret );;;;;;;;;;;;;;;x
-CA_BOIS_bois_L1;Timber: Woodcutters' Lodges;BOIS : Site de Coupe;;;;;;;;;;;;x;
-CA_BOIS_bois_L1_desc;Small lodges support a few dozen lumberjacks at a time as they chip slowly at the woodlands of the region, supplying only barely what is needed to sustain local industries.;;;;;;;;;;;;;x;
-CA_BOIS_bois_L2;Timber: Logging Camp;BOIS : Camp de Bûcherons;;;;;;;;;;;;x;
-CA_BOIS_bois_L2_desc;Larger camps of loggers have opened up and teams of lumberjacks are making their way deeper into the woods. Logs are piling up faster than the oxen can transport them back to the villages and cities.;;;;;;;;;;;;;x;
-CA_BOIS_bois_L3;Timber: Lumber Mill;BOIS : Exploitation Forestière;;;;;;;;;;;;x;
-CA_BOIS_bois_L3_desc;The construction of lumber mills have greatly increased productivity and lessened the logistical burden of hauling uncut logs to the cities for processing. Small villages springing up next to these facilities provide more labor and support for the hundreds of loggers employed throughout the province.;;;;;;;;;;;;;x;
-#CHARBON DE BOIS (foret);;;;;;;;;;;;;;;x
-CA_BOIS_charbon_L1;Charcoal: Colliers' Huts;CHARBON DE BOIS : Charbonnière Improvisée;;;;;;;;;;;;x;
-CA_BOIS_charbon_L1_desc;;;;;;;;;;;;;;x;
-CA_BOIS_charbon_L2;Charcoal: Coal-firing Kilns;CHARBON DE BOIS : Charbonnière Permanente;;;;;;;;;;;;x;
-CA_BOIS_charbon_L2_desc;;;;;;;;;;;;;;x;
-CA_BOIS_charbon_L3;Charcoal: Seigneurial Kilns;CHARBON DE BOIS : Charbonnière Seigneuriale;;;;;;;;;;;;x;
-CA_BOIS_charbon_L3_desc;;;;;;;;;;;;;;x;
-#CARRIERE pierre (montagne + côteau);;;;;;;;;;;;;;;x
-CA_CARR_pierre_L1;Stone: Open-cast Quarry;PIERRE : Carrière sommaire;;;;;;;;;;;;x;
-CA_CARR_pierre_L1_desc;Stone is mined here in significant quantities, but surveyors have discovered veins that run deep into the soil. Perhaps an expansion of operations underground might be in order.;L'exploitation consiste surtout à casser des rochers plus gros dans un éboulis ou un affleurement rocheux d'une colline. On y extrait péniblement roches et remblais qui seront utilisés localement.;;;;;;;;;;;;x;
-CA_CARR_pierre_L2;Stone: Shallow Shaft Mining;PIERRE : Front de taille;;;;;;;;;;;;x;
-CA_CARR_pierre_L2_desc;The construction of a shaft extending deep underground allows for more stone to be extracted in blocks and lifted to the surface by ingenious elevators and sturdy cranes.;L'intensification de l'extraction a formé cette paroi verticale ouverte dans ce flanc de plateau, permettant d'extraire de la pierre en gros bloc qui pourront donner une belle pierre de taille.;;;;;;;;;;;;x;
-CA_CARR_pierre_L3;Stone: Extensive Shaft Mining;PIERRE : Grande Carrière;;;;;;;;;;;;x;
-CA_CARR_pierre_L3_desc;The construction of an extensive tunnel network and the machinery needed to lift large blocks of stone to the surface have greatly increased productivity to supply the construction of fortifications and cathedrals, but also make mining much more dangerous and a few lives are claimed every year.;Ce site carrier fournit l'ensemble de la région en pierre de qualité qui sert notamment à l'édification de fortifications ou constructions telles les églises et cathédrales.;;;;;;;;;;;;x;
+#CA_ELEV_ovin_L1b;Cheese: Mountain Pasturage;BETAIL : Alpage;;;;;;;;;;;;x;
+#CA_ELEV_ovin_L1b_desc;Although grazing land is limited in these lands, it is still sustainable to herd livestock for the production of dairy products.;Cette prairie d'altitude est fréquentée pendant toute la belle saison et offre aux ovins une herbe fleurie et savoureuse dont ils raffolent.;;;;;;;;;;;;x;
+#CA_ELEV_ovin_L2b;Cheese: Mountain Enclosures;BETAIL : Refuge d'alpage;;;;;;;;;;;;x;
+#CA_ELEV_ovin_L2b_desc;Enclosing the herds allows more efficient use of grazing lands as well as better protection from predators, rustlers, and the unfriendly mountain climate.;Tout juste un modeste abri en bois assorti d'un enclos pour les bêtes, assurant néanmoins de meilleures conditions d'élevage.;;;;;;;;;;;;x;
+#CA_ELEV_ovin_L3b;Cheese: Mountain Hamlet;BETAIL : Hameau d'alpage;;;;;;;;;;;;x;
+#CA_ELEV_ovin_L3b_desc;Small communities of shepherds have established hamlets centered around the breeding of livestock, increasing production and making more efficient use of shared land.;Tout juste quelques cabanes et abris saisonniers accueillant un petit groupe de bergers et leurs troupeaux paissant sur l'ensemble de l'alpage.;;;;;;;;;;;;x;
+
+
+
 #MINE minerai (montagne + côteau);;;;;;;;;;;;;;;x
 CA_MINE_minerai_L1;Raw Ores: Open-cast Mine;MINERAI : Excavation Minière;;;;;;;;;;;;x;
 CA_MINE_minerai_L1_desc;This surface mine only yields a bare amount of ore compared to the volume potentially hidden underground. Additional infrastructure is needed to extract more ores from deeper within the subsoil.;Une excavation grossière a été forée dans la roche. On y en extrait péniblement du minerai.;;;;;;;;;;;;x;
@@ -107,56 +89,9 @@ CA_MINE_minerai_L2;Raw Ores: Shallow Shaft Mining;MINERAI : Tunnels Miniers;;;;;
 CA_MINE_minerai_L2_desc;The construction of a shaft extending deep underground allows for more ore to be extracted and lifted to the surface by ingenious elevators and sturdy cranes.;L'excavation s'est agrandie et des galeries partent dans plusieurs directions qui suivent les veines, permettant une production croissante qui pourra être transformée dans une forge.;;;;;;;;;;;;x;
 CA_MINE_minerai_L3;Raw Ores: Extensive Shaft Mining;MINERAI : Grande Mine;;;;;;;;;;;;x;
 CA_MINE_minerai_L3_desc;The construction of an extensive tunnel network and the machinery needed to lift large loads of ore to the surface have greatly increased productivity to supply the production of arms and tools, but also make mining much more dangerous and a few lives are claimed every year.;Maintenant, une vraie mine soutenue par des étais a été creusée. Les risques d'éboulement sont diminués et les mineurs peuvent travailler plus sereinement. Le minerai extrait en bonnes quantités pourra dès lors fournir le métal nécessaire à la fabrication d'armes et outils.;;;;;;;;;;;;x;
-#FISH pêche (côtes);;;;;;;;;;;;;;;x
-CA_FISH_peche_L1;Fishing: Fishing Piers;PECHE : Ponton;;;;;;;;;;;;x;
-CA_FISH_peche_L1_desc;A small pier has been constructed to accommodate the emergence of a small fishing village. Some fish are caught here, but the waters are still teeming with wildlife and could yield even more were there more infrastructure to support local fishing.;Un ponton a été construit afin d'y accueillir quelques barques de pêcheurs.;;;;;;;;;;;;x;
-CA_FISH_peche_L2;Fishing: Fishing Quay;PECHE : Quai;;;;;;;;;;;;x;
-CA_FISH_peche_L2_desc;The pier has been renovated into a quay capable of accommodating a sizeable flotilla of small fishing craft. The yield has increased considerably and can easily feed the local populace and leave a surplus for the salting and smoking industries;Le ponton a été transformé en un quai et peut maintenant accueillir une flottille de pêche ramenant suffisamment de poissons tant pour nourrir la population locale qu'alimenter les activités de salage et fumage de la région.;;;;;;;;;;;;x;
-CA_FISH_peche_L3;Fishing: Fishing Harbor;PECHE : Port;;;;;;;;;;;;x;
-CA_FISH_peche_L3_desc;The quay has been expanded into a bustling harbor and the fishing industry is booming here.;C'est maintenant un port fourmillant d'activités et accueillant une pêche abondante qui est installé sur le site.;;;;;;;;;;;;x;
-#FISH pisciculture (terres);;;;;;;;;;;;;;;x
-CA_FISH_pisci_L1;Freshwater Fish: Artificial Lake;PISCICULTURE : Élevage en Rivière;;;;;;;;;;;;x;
-CA_FISH_pisci_L1_desc;;;;;;;;;;;;;;x;
-CA_FISH_pisci_L2;Freshwater Fish: Fish Farms;PISCICULTURE : Étang Aménagé;;;;;;;;;;;;x;
-CA_FISH_pisci_L2_desc;;;;;;;;;;;;;;x;
-CA_FISH_pisci_L3;Freshwater Fish: Elaborate Fish Farms;PISCICULTURE : Ferme Piscicole;;;;;;;;;;;;x;
-CA_FISH_pisci_L3_desc;;;;;;;;;;;;;;x;
-CA_AGRI_moulin_L1;Flour: Horse Mill;FARINE : Meule de pierre;;;;;;;;;;;;x
-CA_AGRI_moulin_L1_desc;;;;;;;;;;;;;;x
-CA_AGRI_moulin_L2;Flour: Windmill;FARINE : Moulin à vent;;;;;;;;;;;;x
-CA_AGRI_moulin_L2_desc;;;;;;;;;;;;;;x
-CA_AGRI_moulin_L3;Flour: Watermill;FARINE : Grand Moulin;;;;;;;;;;;;x
-CA_AGRI_moulin_L3_desc;;;;;;;;;;;;;;x
-CA_AGRI_boulangerie_L1;Bread: Clay Kiln;PAIN : Four commun;;;;;;;;;;;;x
-CA_AGRI_boulangerie_L1_desc;;;;;;;;;;;;;;x
-CA_AGRI_boulangerie_L2;Bread: Bakery;PAIN : Four en pierre;;;;;;;;;;;;x
-CA_AGRI_boulangerie_L2_desc;;;;;;;;;;;;;;x
-CA_AGRI_boulangerie_L3;Bread: Bakers' Guild;PAIN : Boulanger;;;;;;;;;;;;x
-CA_AGRI_boulangerie_L3_desc;;;;;;;;;;;;;;x
-CA_FISH_fumoir_L1;Smoked Fish: Fishmonger's Smokehouse;FUMAISON : atelier;;;;;;;;;;;;x
-CA_FISH_fumoir_L1_desc;;;;;;;;;;;;;;x
-CA_FISH_fumoir_L2;Smoked Fish: Curing Shed;FUMAISON : atelier seigneurial;;;;;;;;;;;;x
-CA_FISH_fumoir_L2_desc;;;;;;;;;;;;;;x
-CA_FISH_fumoir_L3;Smoked Fish: Communal Smokehouse;FUMAISON : manufacture;;;;;;;;;;;;x
-CA_FISH_fumoir_L3_desc;;;;;;;;;;;;;;x
-CA_scierie_L1;Lumber: Man-powered Sawmill;PLANCHE : atelier de sciage;;;;;;;;;;;;x
-CA_scierie_L1_desc;;;;;;;;;;;;;;x
-CA_scierie_L2;Lumber: Hydro-powered Sawmill;PLANCHE : scierie;;;;;;;;;;;;x
-CA_scierie_L2_desc;;;;;;;;;;;;;;x
-CA_scierie_L3;Lumber: Carriage Sawmill;PLANCHE : grande scierie;;;;;;;;;;;;x
-CA_scierie_L3_desc;;;;;;;;;;;;;;x
-CA_four_L1;Glass: Glassmaker's Furnace;VERRE : four;;;;;;;;;;;;x
-CA_four_L1_desc;;;;;;;;;;;;;;x
-CA_four_L2;Glass: Glass Manufactory;VERRE : atelier;;;;;;;;;;;;x
-CA_four_L2_desc;;;;;;;;;;;;;;x
-CA_four_L3;Glass: Forest Glass Manufactory;VERRE : maître verrier;;;;;;;;;;;;x
-CA_four_L3_desc;;;;;;;;;;;;;;x
-CA_pierre_taille_L1;Worked Stone: Stonemasons Lodge;PIERRE : cour des tailleurs;;;;;;;;;;;;x
-CA_pierre_taille_L1_desc;;;;;;;;;;;;;;x
-CA_pierre_taille_L2;Worked Stone: Stonemason Camp;PIERRE : atelier de taille;;;;;;;;;;;;x
-CA_pierre_taille_L2_desc;;;;;;;;;;;;;;x
-CA_pierre_taille_L3;Worked Stone: Stonemasons' Guild;PIERRE : manufacture de taille;;;;;;;;;;;;x
-CA_pierre_taille_L3_desc;;;;;;;;;;;;;;x
+
+
+
 CA_fonderie_L1;Iron: Smelter;METAL : atelier de fonte;;;;;;;;;;;;x
 CA_fonderie_L1_desc;;;;;;;;;;;;;;x
 TOOLTIP_is_active_fonderie_by_neighbor;Is connected by road or river to a province that has an active iron mine.;Est relié par une route ou un fleuve à une province qui a une mine de fer en activité.;;;;;;;;;;;;x
@@ -178,12 +113,7 @@ CA_armurerie_L2;Arms: Cast Iron Weaponsmith;ARMES : forge;;;;;;;;;;;;x
 CA_armurerie_L2_desc;;;;;;;;;;;;;;x
 CA_armurerie_L3;Arms: Steel Weaponsmith;ARMES : fabrique;;;;;;;;;;;;x
 CA_armurerie_L3_desc;;;;;;;;;;;;;;x
-CA_ELEV_cheval_L1;Steppe Horses: Grazing Pastures;CHEVAUX : élevage;;;;;;;;;;;;x
-CA_ELEV_cheval_L1_desc;;Les chevaux ici pâturent librement et fournissent des bêtes de traits et plus rarement des montures.;;;;;;;;;;;;x
-CA_ELEV_cheval_L2;Steppe Horses: Horse Breeders;CHEVAUX : dressage;;;;;;;;;;;;x
-CA_ELEV_cheval_L2_desc;;Les animaux sont ici élevés pour servir de montures pour qui s'offrir les services d'un cheval;;;;;;;;;;;;x
-CA_ELEV_cheval_L3;Steppe Horses: Equestrian Training Yard;CHEVAUX : entraînement;;;;;;;;;;;;x
-CA_ELEV_cheval_L3_desc;;L'élevage et le dressage des chevaux n'a ici qu'un seul but : approvisionner la petite comme grande noblesse ou les plus fortunés. Les nobles bêtes servent à la chasse ou à la guerre.;;;;;;;;;;;;x
+
 #;;;;;;;;;;;;;;x;
 #;-Villes-;-Villes-;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;x;
@@ -199,20 +129,7 @@ CT_draperie_L2;Textiles: Dyers' Manufactory;DRAP : atelier teinturier;;;;;;;;;;;
 CT_draperie_L2_desc;;;;;;;;;;;;;;x
 CT_draperie_L3;Textiles: Drapers' Guild;DRAP : drapier;;;;;;;;;;;;x
 CT_draperie_L3_desc;;;;;;;;;;;;;;x
-#FERME CEREALIERE (plaine et terres arables);;;;;;;;;;;;;;;x
-CT_AGRI_cereale_L1;Cereals: Land Clearance;CEREALES : Plaine Défrichée;;;;;;;;;;;;x;
-CT_AGRI_cereale_L1_desc;This land has been cleared and prepared for the large-scale cultivation of cereals.;Ce terrain a été défriché et devrait bientôt pouvoir produire des céréales.;;;;;;;;;;;x
-CT_AGRI_cereale_L2;Cereals: Cultivated Fields;CEREALES : Champs Cultivés;;;;;;;;;;;;x;
-CT_AGRI_cereale_L2_desc;This land supports the large-scale cultivation of multiple crops of cereals according to the rhythm of the seasons.;Ce terrain comporte maintenant plusieurs champs cultivés où se succèdent les assolements triennaux céréaliers au fil des saisons.;;;;;;;;;;;;x;
-CT_AGRI_cereale_L3;Cereals: Farming Estates;CEREALES : Exploitation Agricole;;;;;;;;;;;;x;
-CT_AGRI_cereale_L3_desc;The local communal government holds authority over multiple estates upon which laborers toil to cultivate a vast surplus of cereals.;Ce qui était naguère un tas de broussailles est maintenant une exploitation agricole où la culture de la céréale est menée de main de maître.;;;;;;;;;;;;x;
-#VERGER (coteaux);;;;;;;;;;;;;;;x
-CT_AGRI_verger_L1;Fruits: Small Orchards;FRUITS : Vergers Épars;;;;;;;;;;;;x
-CT_AGRI_verger_L1_desc;Small orchards tended to by a few dozen workers dot the countryside, but more fertile land is available for  large-scale cultivation.;;;;;;;;;;;;;x
-CT_AGRI_verger_L2;Fruits: Large Orchards;FRUITS : Grands Vergers;;;;;;;;;;;;x
-CT_AGRI_verger_L2_desc;Through considerable investments in expanding the scale of production, large orchards now span the many hills and fields of this province.;;;;;;;;;;;;x
-CT_AGRI_verger_L3;Fruits: Communal Orchards;FRUITS : Vergers Communaux;;;;;;;;;;;;x
-CT_AGRI_verger_L3_desc;The communal government has expanded the majority of the fruit orchards in this province. Thousands of laborers now toil in the groves harvesting fruit from trees bending under their own weight to send to market.;Les vergers couvrent à présent une bonne partie des coteaux et les arbres plient sous le poids de leurs fruits abondants.;;;;;;;;;;;;x;
+
 #ELEVAGE bovin;;;;;;;;;;;;;;;x
 CT_ELEV_bovin_L1;Cattle: Pasturages;BETAIL : Pré;;;;;;;;;;;;x;
 CT_ELEV_bovin_L1_desc;Putting cattle out to pasture on the vast grazing lands in this province forms the foundation of a stable economy, but land use is inefficient and there is more than enough land to support larger herds.;Un pré pour les bovins a été délimité.;;;;;;;;;;;;x;
@@ -220,27 +137,112 @@ CT_ELEV_bovin_L2;Cattle: Enclosures;BETAIL : Enclos à bovins;;;;;;;;;;;;x;
 CT_ELEV_bovin_L2_desc;Enclosing cattle herds allows more efficient use of grazing lands as well as better protection from predators and rustlers.;Sur le pré, un ensemble de barrières formant un enclos a été établi.;;;;;;;;;;;;x;
 CT_ELEV_bovin_L3;Cattle: Cattle Pens;BETAIL : Étable;;;;;;;;;;;;x;
 CT_ELEV_bovin_L3_desc;Keeping the cattle penned reduces the risk of losing them to theft or predators. The establishment of proper infrastructure for the breeding and cultivation of large herds of cattle has delivered significant returns.;Une étable accueillant les bêtes pour la nuit a été bâtie.;;;;;;;;;;;;x;
-#BOIS (plaine + foret );;;;;;;;;;;;;;;x
-CT_BOIS_bois_L1;Timber: Woodcutters' Lodges;BOIS : Site de Coupe;;;;;;;;;;;;x;
-CT_BOIS_bois_L1_desc;Small lodges support a few dozen lumberjacks at a time as they chip slowly at the woodlands of the region, supplying only barely what is needed to sustain local industries.;;;;;;;;;;;;;x;
-CT_BOIS_bois_L2;Timber: Logging Camp;BOIS : Camp de Bûcherons;;;;;;;;;;;;x;
-CT_BOIS_bois_L2_desc;Larger camps of loggers have opened up and teams of lumberjacks are making their way deeper into the woods. Logs are piling up faster than the oxen can transport them back to the city.;;;;;;;;;;;;;x;
-CT_BOIS_bois_L3;Timber: Lumber Mill;BOIS : Exploitation Forestière;;;;;;;;;;;;x;
-CT_BOIS_bois_L3_desc;The construction of lumber mills have greatly increased productivity and lessened the logistical burden of hauling uncut logs to the cities for processing. Small villages springing up next to these facilities provide more labor and support for the hundreds of loggers employed throughout the province.;;;;;;;;;;;;;x;
-#CHARBON DE BOIS (foret);;;;;;;;;;;;;;;x
-CT_BOIS_charbon_L1;Charcoal: Colliers' Huts;CHARBON DE BOIS : Charbonnière Improvisée;;;;;;;;;;;;x;
-CT_BOIS_charbon_L1_desc;;;;;;;;;;;;;;x;
-CT_BOIS_charbon_L2;Charcoal: Coal-firing Kilns;CHARBON DE BOIS : Charbonnière Permanente;;;;;;;;;;;;x;
-CT_BOIS_charbon_L2_desc;;;;;;;;;;;;;;x;
-CT_BOIS_charbon_L3;Charcoal: Communal Kilns;CHARBON DE BOIS : Charbonnière Communale;;;;;;;;;;;;x;
-CT_BOIS_charbon_L3_desc;;;;;;;;;;;;;;x;
-#CARRIERE pierre (montagne + côteau);;;;;;;;;;;;;;;x
+
+
+###FILIERE BOIS;;;;;;;;;;;;;;;x
+#BOIS //prod (plaine + foret );;;;;;;;;;;;;;;x
+CA_BOIS_bois_L1;Timber: Woodcutters' lodges;BOIS BRUT : Site de Coupe;;;;;;;;;;;;x;
+CA_BOIS_bois_L2;Timber: Logging mamp;BOIS BRUT : Camp de bûcherons;;;;;;;;;;;;x;
+CA_BOIS_bois_L3;Timber: Lumber mill;BOIS BRUT : Exploitation forestière;;;;;;;;;;;;x;
+CA_BOIS_bois_desc;Woodcutters are in action here to exploit the raw material from the forest : §Gtimber§!. \nTrees are used from tip to toe, either to heat, cook, furnish or of course building. \n§GTimber§! is required to build a §Ysawmill§! or §Ycharcoal site§!;Des bûcherons s'activent ici pour exploiter la matière première de la forêt : le §Gbois brut§!. \nLes arbres sont utilisés des futs jusqu'aux feuilles et servent tant à se chauffer, qu'à cuire, se meubler ou bien entendu pour construire. \nLe §Gbois brut§! est nécessaire pour développer une §Yscierie§! ou une §Ycharbonnière§!;;;;;;;;;;;;x;
+CT_BOIS_bois_L1;Timber: Woodcutters' lodges;BOIS BRUT : Site de Coupe;;;;;;;;;;;;x;
+CT_BOIS_bois_L2;Timber: Logging mamp;BOIS BRUT : Camp de bûcherons;;;;;;;;;;;;x;
+CT_BOIS_bois_L3;Timber: Lumber mill;BOIS BRUT : Exploitation forestière;;;;;;;;;;;;x;
+CT_BOIS_bois_desc;Woodcutters are in action here to exploit the raw material from the forest : §Gtimber§!. \nTrees are used from tip to toe, either to heat, cook, furnish or of course building. \n§GTimber§! is required to build a §Ysawmill§! or §Ycharcoal site§!;Des bûcherons s'activent ici pour exploiter la matière première de la forêt : le §Gbois brut§!. \nLes arbres sont utilisés des futs jusqu'aux feuilles et servent tant à se chauffer, qu'à cuire, se meubler ou bien entendu pour construire. \nLe §Gbois brut§! est nécessaire pour développer une §Yscierie§! ou une §Ycharbonnière§!;;;;;;;;;;;;x;
+#CHARBON DE BOIS //prod (foret);;;;;;;;;;;;;;;x
+CA_BOIS_charbon_L1;Charcoal: Colliers' huts;CHARBON DE BOIS : Charbonnière improvisée;;;;;;;;;;;;x;
+CA_BOIS_charbon_L2;Charcoal: Charcoal pile;CHARBON DE BOIS : Loge charbonnière;;;;;;;;;;;;x;
+CA_BOIS_charbon_L3;Charcoal: Seigneurial kilns;CHARBON DE BOIS : Charbonnière seigneuriale;;;;;;;;;;;;x;
+CA_BOIS_charbon_desc;;La charbonnière est installée dans une clairière au coeur de la forêt. L'odeur âcre de la fumée se sent longtemps avant d'arriver sur les lieux. A mesure que la loge charbonnière s'agrandit, avec des cabanes, un four et des leiux de stockage, la production se fait plus importante et régulière.\nLe §Gcharbon de bois§! ainsi fabriqué est utile pour alimenter les §Yfours à verre§! et §Yfonderies à métal§!;;;;;;;;;;;;x;
+CT_BOIS_charbon_L1;Charcoal: Colliers' huts;CHARBON DE BOIS : Charbonnière improvisée;;;;;;;;;;;;x;
+CT_BOIS_charbon_L2;Charcoal: Charcoal pile;CHARBON DE BOIS : Loge charbonnière;;;;;;;;;;;;x;
+CT_BOIS_charbon_L3;Charcoal: Seigneurial kilns;CHARBON DE BOIS : Charbonnière communale;;;;;;;;;;;;x;
+CT_BOIS_charbon_desc;;La charbonnière est installée dans une clairière au coeur de la forêt. L'odeur âcre de la fumée se sent longtemps avant d'arriver sur les lieux. A mesure que la loge charbonnière s'agrandit, avec des cabanes, un four et des leiux de stockage, la production se fait plus importante et régulière.\nLe §Gcharbon de bois§! ainsi fabriqué est utile pour alimenter les §Yfours à verre§! et §Yfonderies à métal§!;;;;;;;;;;;;x;
+#PLANCHES //prod (foret);;;;;;;;;;;;;;;x
+CA_scierie_L1;Lumber: Sawpit;BOIS : Scieur de long;;;;;;;;;;;;x
+CA_scierie_L2;Lumber: Mecanised sawmill;BOIS : Scierie mécanisée;;;;;;;;;;;;x
+CA_scierie_L3;Lumber: Great sawmill;BOIS : Grande scierie;;;;;;;;;;;;x
+CA_scierie_desc;The sawyers here are cutting raw wood into §Glumber§! to get used by §Ycarpenters§!, §Yjoiners§!, §Ytoolmakers§!...;Les scieurs de long débitent les fûts en planches, poutres et madriers ou de plus petites pièces destinés à différents usages. \nLe §Gbois§! ainsi travaillé pourra servir aux §Ycharpentiers§!, §Ymenuisiers§!, §Youtilleurs§!...;;;;;;;;;;;;;x
+CT_scierie_L1;Lumber: Sawpit;BOIS : Scieur de long;;;;;;;;;;;;x
+CT_scierie_L2;Lumber: Mecanised sawmill;BOIS : Scierie mécanisée;;;;;;;;;;;;x
+CT_scierie_L3;Lumber: Great sawmill;BOIS : Grande scierie;;;;;;;;;;;;x
+CT_scierie_desc;The sawyers here are cutting raw wood into §Glumber§! to get used by §Ycarpenters§!, §Yjoiners§!, §Ytoolmakers§!...;Les scieurs de long débitent les fûts en planches, poutres et madriers ou de plus petites pièces destinés à différents usages. \nLe §Gbois§! ainsi travaillé pourra servir aux §Ycharpentiers§!, §Ymenuisiers§!, §Youtilleurs§!...;;;;;;;;;;;;;x
+#VERRE //prod (foret);;;;;;;;;;;;;;;x
+CA_four_L1;Glass: Glassmaker's furnace;VERRE : four forestier;;;;;;;;;;;;x
+CA_four_L2;Glass: Glass Manufactory;VERRE : atelier;;;;;;;;;;;;x
+CA_four_L3;Glass: Forest glass manufactory;VERRE : verrerie;;;;;;;;;;;;x
+CA_four_desc;;;;;;;;;;;;;;x
+CT_four_L1;Glass: Glassmaker's furnace;VERRE : four forestier;;;;;;;;;;;;x
+CT_four_L2;Glass: Glass Manufactory;VERRE : atelier;;;;;;;;;;;;x
+CT_four_L3;Glass: Forest glass manufactory;VERRE : verrerie;;;;;;;;;;;;x
+CT_four_desc;;§Gverre§! pour §Yverriers§!;;;;;;;;;;;;x
+#CHARPENTIER //craft (all cities);;;;;;;;;;;;;;;x
+CA_charpentier_L1;Carpenters' workshop;Atelier des charpentiers;;;;;;;;;;;;x
+CA_charpentier_L2;Carpenters' lodge;Loge des charpentiers;;;;;;;;;;;;x
+CT_charpentier_L1;Carpenters' workshop;Atelier des charpentiers;;;;;;;;;;;;x
+CT_charpentier_L2;Carpenters' lodge;Loge des charpentiers;;;;;;;;;;;;x
+CT_charpentier_L3;Carpenters' guild;Guilde des charpentiers;;;;;;;;;;;;x
+TP_charpentier_L1;Carpenters' workshop;Atelier des charpentiers;;;;;;;;;;;;x
+TP_charpentier_L2;Carpenters' lodge;Loge des charpentiers;;;;;;;;;;;;x
+CA_charpentier_desc;;Les §Ycharpentiers§! retravaillent ici le §Gbois§! : planches, poutres et madriers afin de les utiliser sur les chantiers de construction.;;;;;;;;;;;;x
+CT_charpentier_desc;;Les §Ycharpentiers§! retravaillent ici le §Gbois§! : planches, poutres et madriers afin de les utiliser sur les chantiers de construction. \nDans les villes, s'ils deviennent suffisament riches et puissants ils fondent une corporation qui pourra devenir très influante sur la vie de la cité.;;;;;;;;;;;;x
+CT_charpentier_L3_desc;;Les §Ycharpentiers§! retravaillent ici le §Gbois§! : planches, poutres et madriers afin de les utiliser sur les chantiers de construction. \nLa fondation de la §Yguilde§! permet d'avoir un relais de pouvoir au sein de la cité et pourra peut être devenir très influente... \nLa guilde regroupe les différentes corporations d'artisans du bois : charpentiers, menuisiers, tonneliers, ébénistes, tourneurs...;;;;;;;;;;;;x
+TP_charpentier_desc;;Les §Ycharpentiers§! retravaillent ici le §Gbois§! : planches, poutres et madriers afin de les utiliser sur les chantiers de construction. ;;;;;;;;;;;;x
+#VERRIER //craft (CT cities);;;;;;;;;;;;;;;x
+CT_verrier_L1;Glassblowers' workshop;Atelier des verriers;;;;;;;;;;;;x
+CT_verrier_L2;Glassblowers' lodge;Loge des verriers;;;;;;;;;;;;x
+CT_verrier_L3;Glassblowers' guild;Guilde des verriers;;;;;;;;;;;;x
+CT_verrier_desc;The §Yglassblowers§! here rework the §Gglass§! that arrives raw in their workshop. \nBy blowing it, they turn it into recipients and objects, utilitarian or decorative. They also craft panes and stained glass. \nIn cities if they grow rich and big enough, they can fund a guild that can turn very influential on city life.;Les §Yverriers§! retravaillent ici le §Gverre§! qui arrive brut dans leur atelier. \nEn le soufflant, ils en tirent récipients et objets, utilitaires ou décoratifs. Le verre sert aussi à fabriquer des vitres et vitraux. \nDans les villes, s'ils deviennent suffisament riches et puissants ils fondent une corporation qui pourra devenir très influante sur la vie de la cité.;;;;;;;;;;;;x
+CT_verrier_L3_desc;The §Yglassblowers§! here rework the §Gglass§! that arrives raw in their workshop. \nBy blowing it, they turn it into recipients and objects, utilitarian or decorative. They also craft panes and stained glass. \nWith their gathering into a §Yguild§!, they have a power relay inside the city : this can turn very influential.;Les §Yverriers§! retravaillent ici le §Gverre§! qui arrive brut dans leur atelier. \nEn le soufflant, ils en tirent récipients et objets, utilitaires ou décoratifs. Le verre sert aussi à fabriquer des vitres et vitraux. \nLa fondation de la §Yguilde§! permet d'avoir un relais de pouvoir au sein de la cité et pourra peut être devenir très influente... \nLa guilde regroupe les différentes corporations d'artisans du verre : souffleurs, vitriers, mâitres verriers...;;;;;;;;;;;;x
+
+###FILIERE PIERRE;;;;;;;;;;;;;;;x
+#PIERRE BRUTE //prod (montagne + côteau);;;;;;;;;;;;;;;x
+CA_CARR_pierre_L1;Stone: Open-cast Quarry;PIERRE : Carrière sommaire;;;;;;;;;;;;x;
+CA_CARR_pierre_L1_desc;Stone is mined here in significant quantities, but surveyors have discovered veins that run deep into the soil. Perhaps an expansion of operations underground might be in order.;L'exploitation consiste surtout à casser des rochers plus gros dans un éboulis ou un affleurement rocheux d'une colline. On y extrait péniblement roches et remblais qui seront utilisés localement.;;;;;;;;;;;;x;
+CA_CARR_pierre_L2;Stone: Shallow Shaft Mining;PIERRE : Front de taille;;;;;;;;;;;;x;
+CA_CARR_pierre_L2_desc;The construction of a shaft extending deep underground allows for more stone to be extracted in blocks and lifted to the surface by ingenious elevators and sturdy cranes.;L'intensification de l'extraction a formé cette paroi verticale ouverte dans ce flanc de plateau, permettant d'extraire de la pierre en gros bloc qui pourront donner une belle pierre de taille.;;;;;;;;;;;;x;
+CA_CARR_pierre_L3;Stone: Extensive Shaft Mining;PIERRE : Grande Carrière;;;;;;;;;;;;x;
+CA_CARR_pierre_L3_desc;The construction of an extensive tunnel network and the machinery needed to lift large blocks of stone to the surface have greatly increased productivity to supply the construction of fortifications and cathedrals, but also make mining much more dangerous and a few lives are claimed every year.;Ce site carrier fournit l'ensemble de la région en pierre de qualité qui sert notamment à l'édification de fortifications ou constructions telles les églises et cathédrales.;;;;;;;;;;;;x;
 CT_CARR_pierre_L1;Stone: Open-cast Quarry;PIERRE : Carrière sommaire;;;;;;;;;;;;x;
 CT_CARR_pierre_L1_desc;Stone is mined here in significant quantities, but surveyors have discovered veins that run deep into the soil. Perhaps an expansion of operations underground might be in order.;L'exploitation consiste surtout à casser des rochers plus gros dans un éboulis ou un affleurement rocheux d'une colline. On y extrait péniblement roches et remblais qui seront utilisés localement.;;;;;;;;;;;;x;
 CT_CARR_pierre_L2;Stone: Shallow Shaft Mining;PIERRE : Front de taille;;;;;;;;;;;;x;
 CT_CARR_pierre_L2_desc;The construction of a shaft extending deep underground allows for more stone to be extracted in blocks and lifted to the surface by ingenious elevators and sturdy cranes.;L'intensification de l'extraction a formé cette paroi verticale ouverte dans ce flanc de plateau, permettant d'extraire de la pierre en gros bloc qui pourront donner une belle pierre de taille.;;;;;;;;;;;;x;
 CT_CARR_pierre_L3;Stone: Extensive Shaft Mining;PIERRE : Grande Carrière;;;;;;;;;;;;x;
 CT_CARR_pierre_L3_desc;The construction of an extensive tunnel network and the machinery needed to lift large blocks of stone to the surface have greatly increased productivity to supply the construction of fortifications and cathedrals, but also make mining much more dangerous and a few lives are claimed every year.;Ce site carrier fournit l'ensemble de la région en pierre de qualité qui sert notamment à l'édification de fortifications ou constructions telles les églises et cathédrales.;;;;;;;;;;;;x;
+#PIERRE TAILLEE //prod (montagne + côteau);;;;;;;;;;;;;;;x
+CA_pierre_taille_L1;Worked Stone: Stonemasons Lodge;PIERRE : cour des tailleurs;;;;;;;;;;;;x
+CA_pierre_taille_L1_desc;;;;;;;;;;;;;;x
+CA_pierre_taille_L2;Worked Stone: Stonemason Camp;PIERRE : atelier de taille;;;;;;;;;;;;x
+CA_pierre_taille_L2_desc;;;;;;;;;;;;;;x
+CA_pierre_taille_L3;Worked Stone: Stonemasons' Guild;PIERRE : manufacture de taille;;;;;;;;;;;;x
+CA_pierre_taille_L3_desc;;;;;;;;;;;;;;x
+CT_pierre_taille_L1;Worked Stone: Stonemasons Lodge;PIERRE : cour des tailleurs;;;;;;;;;;;;x
+CT_pierre_taille_L1_desc;;Les tailleurs de pierres se sont simplement installés dans un cour en ville entourée de quelques abris pour s'abriter et stocker leurs outils.;;;;;;;;;;;;x
+CT_pierre_taille_L2;Worked Stone: Banker Masons' Workshop;PIERRE : atelier de taille;;;;;;;;;;;;x
+CT_pierre_taille_L2_desc;;Ce petit atelier fabrique des pierres taillées ou ciselées de toutes tailles pour les constructions et ornements;;;;;;;;;;;;x
+CT_pierre_taille_L3;Worked Stone: Stonecarvers' Workshop;PIERRE : manufacture de taille;;;;;;;;;;;;x
+CT_pierre_taille_L3_desc;;Ce grand atelier fabrique massivement de la pierre taillées pour tout type de constructions.;;;;;;;;;;;;x
+#MACON //craft (all cities);;;;;;;;;;;;;;;x
+CA_macon_L1;Carpenters' workshop;Atelier des maçons;;;;;;;;;;;;x
+CA_macon_L2;Carpenters' lodge;Loge des maçons;;;;;;;;;;;;x
+CT_macon_L1;Carpenters' workshop;Atelier des maçons;;;;;;;;;;;;x
+CT_macon_L2;Carpenters' lodge;Loge des maçons;;;;;;;;;;;;x
+CT_macon_L3;Carpenters' guild;Guilde des maçons;;;;;;;;;;;;x
+TP_macon_L1;Carpenters' workshop;Atelier des maçons;;;;;;;;;;;;x
+TP_macon_L2;Carpenters' lodge;Loge des maçons;;;;;;;;;;;;x
+CA_macon_desc;;Les §Ymaçons§! utilisent la §Gpierre§! : planches, poutres et madriers afin de les utiliser sur les chantiers de construction.;;;;;;;;;;;;x
+CT_macon_desc;;Les §Ymaçons§! utilisent la §Gpierre§! : planches, poutres et madriers afin de les utiliser sur les chantiers de construction. \nDans les villes, s'ils deviennent suffisament riches et puissants ils fondent une corporation qui pourra devenir très influante sur la vie de la cité.;;;;;;;;;;;;x
+CT_macon_L3_desc;;Les §Ymaçons§! utilisent la §Gbpierre§! : planches, poutres et madriers afin de les utiliser sur les chantiers de construction. \nLa fondation de la §Yguilde§! permet d'avoir un relais de pouvoir au sein de la cité et pourra peut être devenir très influente... \nLa guilde regroupe les différentes corporations d'artisans du bois : charpentiers, menuisiers, tonneliers, ébénistes, tourneurs...;;;;;;;;;;;;x
+TP_macon_desc;;Les §Ymaçons§! utilisent la §Gpierre§! : planches, poutres et madriers afin de les utiliser sur les chantiers de construction. ;;;;;;;;;;;;x
+
+###FILIERE MINERAUX;;;;;;;;;;;;;;;x
+
+CT_sel_raffine_L1;Refined Salt: Salt Panning Workshops;SEL : petit étal;;;;;;;;;;;;x
+CT_sel_raffine_L1_desc;;Un simple étal proposant des sels de diverses qualités d'affinage;;;;;;;;;;;;x
+CT_sel_raffine_L2;Refined Salt: Modest Salt Refinery;SEL : boutique;;;;;;;;;;;;x
+CT_sel_raffine_L2_desc;;L'étal a ici fait place à un boutique plus organisée avec davantage de choix;;;;;;;;;;;;x
+CT_sel_raffine_L3;Refined Salt: Expanded Salt Refinery;SEL : marchand;;;;;;;;;;;;x
+CT_sel_raffine_L3_desc;;Ce marchand spécialisé dans le sel propose principalement la production du coin mais aussi quelques sels venus d'ailleurs aux parfums inattendus;;;;;;;;;;;;x
 #MINE minerai sel(montagne + côteau + désert);;;;;;;;;;;;;;;x
 CT_MINE_sel_L1;Salt: Brine Pits;SEL : Puits de Saumure;;;;;;;;;;;;x;
 CT_MINE_sel_L1_desc;;;;;;;;;;;;;;x;
@@ -266,153 +268,39 @@ CT_MINE_cuivre_L2;Copper: Shallow Shaft Mining;CUIVRE : Petite excavation;;;;;;;
 CT_MINE_cuivre_L2_desc;;;;;;;;;;;;;;x;
 CT_MINE_cuivre_L3;Copper: Extensive Shaft Mining;CUIVRE : Grande mine;;;;;;;;;;;;;x
 CT_MINE_cuivre_L3_desc;;;;;;;;;;;;;;x;
-#FISH pêche (côtes);;;;;;;;;;;;;;;x
-CT_FISH_peche_L1;Fishing: Fishing Piers;PECHE : Ponton;;;;;;;;;;;;x;
-CT_FISH_peche_L1_desc;A small pier has been constructed to accommodate the emergence of a small fishing village. Some fish are caught here, but the waters are still teeming with wildlife and could yield even more were there more infrastructure to support local fishing.;Un ponton a été construit afin d'y accueillir quelques barques de pêcheurs.;;;;;;;;;;;;x;
-CT_FISH_peche_L2;Fishing: Fishing Quay;PECHE : Quai;;;;;;;;;;;;x;
-CT_FISH_peche_L2_desc;The pier has been renovated into a quay capable of accommodating a sizeable flotilla of small fishing craft. The yield has increased considerably and can easily feed the local populace and leave a surplus for the salting and smoking industries;Le ponton a été transformé en un quai et peut maintenant accueillir une flottille de pêche ramenant suffisamment de poissons tant pour nourrir la population locale qu'alimenter les activités de salage et fumage de la région.;;;;;;;;;;;;x;
-CT_FISH_peche_L3;Fishing: Fishing Harbor;PECHE : Port;;;;;;;;;;;;x;
-CT_FISH_peche_L3_desc;The quay has been expanded into a bustling harbor and the fishing industry is booming here.;C'est maintenant un port fourmillant d'activités et accueillant une pêche abondante qui est installé sur le site.;;;;;;;;;;;;x;
-#VIN (coteaux);;;;;;;;;;;;;;x;
-CT_chai_L1;Wine: Cultivated Vineyards;VIN : Chai Modeste;;;;;;;;;;;;x;
-CT_chai_L1_desc;;;;;;;;;;;;;;x;
-CT_chai_L2;Wine: Modest Winery;VIN : Chai Agrandi;;;;;;;;;;;;x;
-CT_chai_L2_desc;;;;;;;;;;;;;;x;
-CT_chai_L3;Wine: Expanded Winery;VIN : Grand Chai;;;;;;;;;;;;x;
-CT_chai_L3_desc;;;;;;;;;;;;;;x;
-CT_chai_L4;Wine: Reputable Winery;VIN : Chai Réputé;;;;;;;;;;;;x;
-CT_chai_L4_desc;;;;;;;;;;;;;;x;
-CT_chai_L5;Wine: Famed Winery;VIN : Chai de Haute Renommée;;;;;;;;;;;;x;
-CT_chai_L5_desc;;;;;;;;;;;;;;x;
-#BIERE;;;;;;;;;;;;;;x;
-CT_brasserie_L1;Beer: Cultivated Hops;BIERE : Brasserie Modeste;;;;;;;;;;;;x;
-CT_brasserie_L1_desc;;;;;;;;;;;;;;x;
-CT_brasserie_L2;Beer: Modest Brewery;BIERE : Brasserie Agrandie;;;;;;;;;;;;x;
-CT_brasserie_L2_desc;;;;;;;;;;;;;;x;
-CT_brasserie_L3;Beer: Expanded Brewery;BIERE : Grande Brasserie;;;;;;;;;;;;x;
-CT_brasserie_L3_desc;;;;;;;;;;;;;;x;
-CT_brasserie_L4;Beer: Reputable Brewery;BIERE : Brasserie Réputée;;;;;;;;;;;;x;
-CT_brasserie_L4_desc;;;;;;;;;;;;;;x;
-CT_brasserie_L5;Beer: Famed Brewery;BIERE : Brasserie de Haute Renommée;;;;;;;;;;;;x;
-CT_brasserie_L5_desc;;;;;;;;;;;;;;x;
+
+
 #;x;x;;;;;;;;;;;;x
 #;x;DEBUT AJOUT MOUCHI;;;;;;;;;;;;x
-CT_AGRI_moulin_L1;Flour: Water-powered Mill;FARINE : Moulin à aubes;;;;;;;;;;;;x
-CT_AGRI_moulin_L1_desc;A modest watermill placed along the bank of the river.;Un modeste moulin à eau placé le long de la rive.;;;;;;;;;;;;x
-CT_AGRI_moulin_L2;Flour: Waterwheel Mill;FARINE : Moulin à noria;;;;;;;;;;;;x
-CT_AGRI_moulin_L2_desc;The watermill makes use of a massive wheel which serves to turn the grindstone ;Le moulin à eau est ici doté d'une immense roue appelée noria, bien plus efficace.;;;;;;;;;;;;x
-CT_AGRI_moulin_L3;Flour: Modest Urban Mill;FARINE : Grand moulin citadin;;;;;;;;;;;;x
-CT_AGRI_moulin_L3_desc;The construction of a small canal to assure a regular flow of water to power the mill has increased its production.;L'installation au bord la rivière est ici alimentée par un petit canal dédié qui assure un débit régulier et ainsi une bien meilleure production.;;;;;;;;;;;;x
-CT_AGRI_moulin_L4;Flour: Expanded Urban Mill;FARINE : Grands moulins urbains;;;;;;;;;;;;x
-CT_AGRI_moulin_L4_desc;The recent installations have expanded the mill in size and capacity, allowing the mill to produce flour in large quantities.;Les installations ici sont de taille et produisent une bonne farine en quantité.;;;;;;;;;;;;x
-CT_AGRI_moulin_L5;Flour: Great Urban Mill;FARINE: Grands moulins;;;;;;;;;;;;x
-CT_AGRI_moulin_L5_desc;This massive mill makes use of multiple wheels, and dedicated canal, and a sizeable workforce to produce an extremely fine flour, used only in the best bakeries in the city.;Le bâtiments massif qui accueille les moulins est alimenté par un canal dédié et équipé de grandes roues. La farine produite est très fine et très blanche.\n Elle fait le bonheur des maîtres boulangers et la fierté de la cité.;;;;;;;;;;;;x
-CT_AGRI_boulangerie_L1;Bread: Bakers' Shops;PAIN : Four commun;;;;;;;;;;;;x
-CT_AGRI_boulangerie_L1_desc;;;;;;;;;;;;;;x
-CT_AGRI_boulangerie_L2;Bread: Baker's Street;PAIN : Four en pierre;;;;;;;;;;;;x
-CT_AGRI_boulangerie_L2_desc;;;;;;;;;;;;;;x
-CT_AGRI_boulangerie_L3;Bread: Baker's Guild;PAIN : Boulanger;;;;;;;;;;;;x
-CT_AGRI_boulangerie_L3_desc;;;;;;;;;;;;;;x
 CT_ELEV_boucherie_L1;Beef: Butcher Shops;VIANDE : abattoir de rue;;;;;;;;;;;;x
 CT_ELEV_boucherie_L1_desc;;Le bétail est ici abattu et débité en grosses pièces pour être vendu;;;;;;;;;;;;x
 CT_ELEV_boucherie_L2;Beef: Slaughterhouse;VIANDE : abattoir;;;;;;;;;;;;x
 CT_ELEV_boucherie_L2_desc;;Le bétail de la région est tué et détaillé pour fournir les échoppes des boucher;;;;;;;;;;;;x
 CT_ELEV_boucherie_L3;Butchers' Guild;VIANDE : boucherie;;;;;;;;;;;;x
 CT_ELEV_boucherie_L3_desc;;Ce grand atelier procède à l'abattage et au découpage en gros ou détail du bétail;;;;;;;;;;;;x
-CT_FISH_fumoir_L1;Smoked Fish: Fishmongers' Shops;FUMAISON : atelier;;;;;;;;;;;;x
-CT_FISH_fumoir_L1_desc;;;;;;;;;;;;;;x
-CT_FISH_fumoir_L2;Smoked Fish: Communal Smokehouse;FUMAISON : atelier communal;;;;;;;;;;;;x
-CT_FISH_fumoir_L2_desc;;;;;;;;;;;;;;x
-CT_FISH_fumoir_L3;Smoked Fish: Fishmongers' Guild;FUMAISON : manufacture;;;;;;;;;;;;x
-CT_FISH_fumoir_L3_desc;;;;;;;;;;;;;;x
+
 CT_tannerie_L1;Leather: Tanners' Shop;CUIR : atelier de peaux;;;;;;;;;;;;x
 CT_tannerie_L1_desc;;;;;;;;;;;;;;x
 CT_tannerie_L2;Leather: Modest Tannery;CUIR : tanneur;;;;;;;;;;;;x
 CT_tannerie_L2_desc;;;;;;;;;;;;;;x
 CT_tannerie_L3;Leather: Expanded Tannery;CUIR : fabrique;;;;;;;;;;;;x
 CT_tannerie_L3_desc;;;;;;;;;;;;;;x
-#CT_tannerie_L4;Leather: Tanners' Commune;;;;;;;;;;;;;x
-#CT_tannerie_L4_desc;;;;;;;;;;;;;;x
-#CT_tannerie_L5;Leather: Tanners' Guild;;;;;;;;;;;;;x
-#CT_tannerie_L5_desc;;;;;;;;;;;;;;x
-CT_scierie_L1;Lumber: Hydro-powered Sawmill;PLANCHE : atelier de sciage;;;;;;;;;;;;;x
-CT_scierie_L1_desc;;;;;;;;;;;;;;x
-CT_scierie_L2;Lumber: Water-wheeled Sawmill;PLANCHE : scierie;;;;;;;;;;;;x
-CT_scierie_L2_desc;;;;;;;;;;;;;;x
-CT_scierie_L3;Lumber: Carriage Sawmill;PLANCHE : grande scierie;;;;;;;;;;;;x
-CT_scierie_L3_desc;;;;;;;;;;;;;;x
-#CT_scierie_L4;Lumber: Modest Lumber Mill;PLANCHE : grande scierie;;;;;;;;;;;;x
-#CT_scierie_L4_desc;;;;;;;;;;;;;;x
-#CT_scierie_L5;Lumber: Expanded Lumber Mill;PLANCHE : grande scierie;;;;;;;;;;;;x
-#CT_scierie_L5_desc;;;;;;;;;;;;;;x
-CT_four_L1;Glass: Glaziers' Shops;VERRE : atelier;;;;;;;;;;;;x
-CT_four_L1_desc;;;;;;;;;;;;;;x
-CT_four_L2;Glass: Modest Glass Manufactory;VERRE : fabrique;;;;;;;;;;;;x
-CT_four_L2_desc;;;;;;;;;;;;;;x
-CT_four_L3;Glass: Expanded Glass Manufactory;VERRE : maître verrier;;;;;;;;;;;;x
-CT_four_L3_desc;;;;;;;;;;;;;;x
-#CT_four_L4;Glass: Forest Glass Manufactory;;;;;;;;;;;;;x
-#CT_four_L4_desc;;;;;;;;;;;;;;x
-#CT_four_L5;Glass: Glaziers' Guild;;;;;;;;;;;;;x
-#CT_four_L5_desc;;;;;;;;;;;;;;x
-CT_pierre_taille_L1;Worked Stone: Stonemasons Lodge;PIERRE : cour des tailleurs;;;;;;;;;;;;x
-CT_pierre_taille_L1_desc;;Les tailleurs de pierres se sont simplement installés dans un cour en ville entourée de quelques abris pour s'abriter et stocker leurs outils.;;;;;;;;;;;;x
-CT_pierre_taille_L2;Worked Stone: Banker Masons' Workshop;PIERRE : atelier de taille;;;;;;;;;;;;x
-CT_pierre_taille_L2_desc;;Ce petit atelier fabrique des pierres taillées ou ciselées de toutes tailles pour les constructions et ornements;;;;;;;;;;;;x
-CT_pierre_taille_L3;Worked Stone: Stonecarvers' Workshop;PIERRE : manufacture de taille;;;;;;;;;;;;x
-CT_pierre_taille_L3_desc;;Ce grand atelier fabrique massivement de la pierre taillées pour tout type de constructions.;;;;;;;;;;;;x
-#CT_pierre_taille_L4;Worked Stone: Stonemasons' Guild;;;;;;;;;;;;;x
-#CT_pierre_taille_L4_desc;;;;;;;;;;;;;;x
-#CT_pierre_taille_L5;Worked Stone: Freemasons' Guild;;;;;;;;;;;;;x
-#CT_pierre_taille_L5_desc;;;;;;;;;;;;;;x
-CT_sel_raffine_L1;Refined Salt: Salt Panning Workshops;SEL : petit étal;;;;;;;;;;;;x
-CT_sel_raffine_L1_desc;;Un simple étal proposant des sels de diverses qualités d'affinage;;;;;;;;;;;;x
-CT_sel_raffine_L2;Refined Salt: Modest Salt Refinery;SEL : boutique;;;;;;;;;;;;x
-CT_sel_raffine_L2_desc;;L'étal a ici fait place à un boutique plus organisée avec davantage de choix;;;;;;;;;;;;x
-CT_sel_raffine_L3;Refined Salt: Expanded Salt Refinery;SEL : marchand;;;;;;;;;;;;x
-CT_sel_raffine_L3_desc;;Ce marchand spécialisé dans le sel propose principalement la production du coin mais aussi quelques sels venus d'ailleurs aux parfums inattendus;;;;;;;;;;;;x
-#CT_sel_raffine_L4;Refined Salt: Urban Salt Refinery;;;;;;;;;;;;;x
-#CT_sel_raffine_L4_desc;;;;;;;;;;;;;;x
-#CT_sel_raffine_L5;Refined Salt: Major Urban Refinery;;;;;;;;;;;;;x
-#CT_sel_raffine_L5_desc;;;;;;;;;;;;;;x
-CT_saline_L1;Saltings: small workshop;SALAISONS : petit atelier;;;;;;;;;;;;x
-CT_saline_L1_desc;;On produit ici divers produits conservés dans le sel;;;;;;;;;;;;x
-CT_saline_L2;Saltings: workshop;SALAISONS : atelier;;;;;;;;;;;;x
-CT_saline_L2_desc;;Les salaisons produites ici sont de qualité et permettent de conserver viandes ou poissons très longtemps;;;;;;;;;;;;x
-CT_saline_L3;Saltings: factory;SALAISONS : manufacture;;;;;;;;;;;;x
-CT_saline_L3_desc;;On produit ici massivement divers produits conservés dans le sel. Les salaisons se vendent localement bien sûr mais font aussi le bonheur des marchands de passage qui achètent et revendent les salaisons lors de leurs périples;;;;;;;;;;;;x
-#CT_saline_L4;Salt: Expanded Salt Mines;;;;;;;;;;;;;x
-#CT_saline_L4_desc;;;;;;;;;;;;;;x
-#CT_saline_L5;Major Urban Salt Mines;;;;;;;;;;;;;x
-#CT_saline_L5_desc;;;;;;;;;;;;;;x
+
+
+
+CT_salaison_L1;Saltings: small workshop;SALAISONS : petit atelier;;;;;;;;;;;;x
+CT_salaison_L1_desc;Saltings from various products are crafted here;On produit ici divers produits conservés dans le sel;;;;;;;;;;;;x
+CT_salaison_L2;Saltings: workshop;SALAISONS : atelier;;;;;;;;;;;;x
+CT_salaison_L2_desc;;Les salaisons produites ici sont de qualité et permettent de conserver viandes ou poissons très longtemps;;;;;;;;;;;;x
+CT_salaison_L3;Saltings: factory;SALAISONS : manufacture;;;;;;;;;;;;x
+CT_salaison_L3_desc;;On produit ici massivement divers produits conservés dans le sel. Les salaisons se vendent localement bien sûr mais font aussi le bonheur des marchands de passage qui achètent et revendent les salaisons lors de leurs périples;;;;;;;;;;;;x
 #;x;x;;;;;;;;;;;;x
 #;x;FIN AJOUT MOUCHI;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;x;
 #;-Temples-;-Temples-;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;x;
-#FERME CEREALIERE (terres arables);;;;;;;;;;;;;;;x
-TP_AGRI_cereale_L1;Cereals: Land Clearance;CEREALES : Plaine Défrichée;;;;;;;;;;;;x;
-TP_AGRI_cereale_L1_desc;This land has been cleared and prepared for the large-scale cultivation of cereals.;Ce terrain a été défriché et devrait bientôt pouvoir produire des céréales.;;;;;;;;;;;x
-TP_AGRI_cereale_L2;Cereals: Cultivated Fields;CEREALES : Champs Cultivés;;;;;;;;;;;;x;
-TP_AGRI_cereale_L2_desc;This land supports the large-scale cultivation of multiple crops of cereals according to the rhythm of the seasons.;Ce terrain comporte maintenant plusieurs champs cultivés où se succèdent les assolements triennaux céréaliers au fil des saisons.;;;;;;;;;;;;x;
-TP_AGRI_cereale_L3;Cereals: Farming Estates;CEREALES : Exploitation Agricole;;;;;;;;;;;;x;
-TP_AGRI_cereale_L3_desc;The local communal government holds authority over multiple estates upon which laborers toil to cultivate a vast surplus of cereals.;Ce qui était naguère un tas de broussailles est maintenant une exploitation agricole où la culture de la céréale est menée de main de maître.;;;;;;;;;;;;x;
-#FERME MARAICHERE (plaine);;;;;;;;;;;;;;;x
-TP_AGRI_maraichage_L1;Vegetables: Vegetable Garden;MARAICHAGE : Potagers;;;;;;;;;;;;x;
-TP_AGRI_maraichage_L1_desc;;;;;;;;;;;;;;x;
-TP_AGRI_maraichage_L2;Vegetables: Vegetable Farm;MARAICHAGE : Ferme Maraîchère;;;;;;;;;;;;x;
-TP_AGRI_maraichage_L2_desc;;;;;;;;;;;;;;x;
-TP_AGRI_maraichage_L3;Vegetables: Crop Rotation;MARAICHAGE : Exploitation Maraîchère;;;;;;;;;;;;x;
-TP_AGRI_maraichage_L3_desc;;;;;;;;;;;;;;x;
-#;;;;;;;;;;;;;;x;
-#VIGNOBLE (côteau);;;;;;;;;;;;;;;x
-TP_AGRI_vigne_L1;Vineyards: Parcelled Land;VIGNE : Parcelles;;;;;;;;;;;;x;
-TP_AGRI_vigne_L1_desc;;;;;;;;;;;;;;x;
-TP_AGRI_vigne_L2;Vineyards: Modest Vineyards;VIGNE : Petit Vignoble;;;;;;;;;;;;x;
-TP_AGRI_vigne_L2_desc;;;;;;;;;;;;;;x;
-TP_AGRI_vigne_L3;Vineyards: Expanded Vineyards;VIGNE : Grand Vignoble;;;;;;;;;;;;x;
-TP_AGRI_vigne_L3_desc;;;;;;;;;;;;;;x;
-#;;;;;;;;;;;;;;x;
+
+
 #ELEVAGE ovin;;;;;;;;;;;;;;;x
 TP_ELEV_ovin_L1;Cheese: Pasturages;BETAIL : Pâturages;;;;;;;;;;;;x;
 TP_ELEV_ovin_L1_desc;Putting sheep out to pasture on the vast grazing lands in this province forms the foundation of a stable economy, but land use is inefficient and there is more than enough land to support larger herds.;Un endroit propice à la consommation de l'herbe, un met de choix pour les ovins sous la houlette des bergers et bergères venant des hameaux alentours.;;;;;;;;;;;;x;
@@ -420,49 +308,7 @@ TP_ELEV_ovin_L2;Cheese: Enclosures;BETAIL : Enclos à ovins;;;;;;;;;;;;x;
 TP_ELEV_ovin_L2_desc;Enclosing sheep herds allows more efficient use of grazing lands as well as better protection from predators and rustlers.;Un ensemble d'enclos a été construit de manière à concentrer davantage la production ovine et en faciliter la surveillance.;;;;;;;;;;;;x;
 TP_ELEV_ovin_L3;Cheese: Sheep Pens;BETAIL : Bergerie;;;;;;;;;;;;x;
 TP_ELEV_ovin_L3_desc;Keeping the sheep penned reduces the risk of losing them to theft or predators. The establishment of proper infrastructure for the breeding and cultivation of large herds of sheep has delivered significant returns.;La bergerie accueillent les ovins pour la nuit et permet la fabrication de fromages.;;;;;;;;;;;;x;
-#CHARBON DE BOIS (foret);;;;;;;;;;;;;;;x
-TP_BOIS_charbon_L1;Charcoal: Colliers' Huts;CHARBON DE BOIS : Charbonnière Improvisée;;;;;;;;;;;;x;
-TP_BOIS_charbon_L1_desc;;;;;;;;;;;;;;x;
-TP_BOIS_charbon_L2;Charcoal: Coal-firing Kilns;CHARBON DE BOIS : Charbonnière Permanente;;;;;;;;;;;;x;
-TP_BOIS_charbon_L2_desc;;;;;;;;;;;;;;x;
-TP_BOIS_charbon_L3;Charcoal: Seigneurial Kilns;CHARBON DE BOIS : Charbonnière de la paroisse;;;;;;;;;;;;x;
-TP_BOIS_charbon_L3_desc;;;;;;;;;;;;;;x;
-#FISH pisciculture (terres);;;;;;;;;;;;;;;x
-TP_FISH_pisci_L1;Freshwater Fish: Artificial Lake;PISCICULTURE : Élevage en Rivière;;;;;;;;;;;;x;
-TP_FISH_pisci_L1_desc;;;;;;;;;;;;;;x;
-TP_FISH_pisci_L2;Freshwater Fish: Fish Farms;PISCICULTURE : Étang Aménagé;;;;;;;;;;;;x;
-TP_FISH_pisci_L2_desc;;;;;;;;;;;;;;x;
-TP_FISH_pisci_L3;Freshwater Fish: Fishery;PISCICULTURE : Ferme Piscicole;;;;;;;;;;;;x;
-TP_FISH_pisci_L3_desc;;;;;;;;;;;;;;x;
-#VIN;;;;;;;;;;;;;;;x
-TP_chai_L1;Wine: Cultivated Vineyards;VIN : Chai Modeste;;;;;;;;;;;;x;
-TP_chai_L1_desc;;;;;;;;;;;;;;x;
-TP_chai_L2;Wine: Modest Winery;VIN : Chai Agrandi;;;;;;;;;;;;x;
-TP_chai_L2_desc;;;;;;;;;;;;;;x;
-TP_chai_L3;Wine: Expanded Winery;VIN : Grand Chai;;;;;;;;;;;;x;
-TP_chai_L3_desc;;;;;;;;;;;;;;x;
-TP_chai_L4;Wine: Reputable Winery;VIN : Chai Réputé;;;;;;;;;;;;x;
-TP_chai_L4_desc;;;;;;;;;;;;;;x;
-TP_chai_L5;Wine: Famed Winery;VIN : Chai de Haute Renommée;;;;;;;;;;;;x;
-TP_chai_L5_desc;;;;;;;;;;;;;;x;
-#BIERE;;;;;;;;;;;;;;x;
-TP_brasserie_L1;Beer: Cultivated Hops;BIERE : Brasserie Modeste;;;;;;;;;;;;x;
-TP_brasserie_L1_desc;;;;;;;;;;;;;;x;
-TP_brasserie_L2;Beer: Modest Brewery;BIERE : Brasserie Agrandie;;;;;;;;;;;;x;
-TP_brasserie_L2_desc;;;;;;;;;;;;;;x;
-TP_brasserie_L3;Beer: Expanded Brewery;BIERE : Grande Brasserie;;;;;;;;;;;;x;
-TP_brasserie_L3_desc;;;;;;;;;;;;;;x;
-TP_brasserie_L4;Beer: Reputable Brewery;BIERE : Brasserie Réputée;;;;;;;;;;;;x;
-TP_brasserie_L4_desc;;;;;;;;;;;;;;x;
-TP_brasserie_L5;Beer: Famed Brewery;BIERE : Brasserie de Haute Renommée;;;;;;;;;;;;x;
-TP_brasserie_L5_desc;;;;;;;;;;;;;;x;
-#CIDRE;;;;;;;;;;;;;;;x
-TP_presse_L1;Cider: Fruit Press;CIDRE : Pressoir;;;;;;;;;;;;x;
-TP_presse_L1_desc;;;;;;;;;;;;;;x;
-TP_presse_L2;Cider: Cider Mill;CIDRE : Grande Presse;;;;;;;;;;;;x;
-TP_presse_L2_desc;;;;;;;;;;;;;;x;
-TP_presse_L3;Cider: Brewery;CIDRE : Cidrerie;;;;;;;;;;;;x;
-TP_presse_L3_desc;;;;;;;;;;;;;;x;
+
 #PEAUX;;;;;;;;;;;;;;;x
 CT_COMM_peaux_L1;Furs: Furrier's Workshop;PEAUX : Atelier du Pelletier;;;;;;;;;;;;x;
 CT_COMM_peaux_L1_desc;;;;;;;;;;;;;;x;
@@ -484,32 +330,16 @@ CT_COMM_epices_L2;Spices: Established Spice Merchant;EPICES : Boutique;;;;;;;;;;
 CT_COMM_epices_L2_desc;;;;;;;;;;;;;;x;
 CT_COMM_epices_L3;Spices: Eastern Trading Company;EPICES : Marchand;;;;;;;;;;;;x;
 CT_COMM_epices_L3_desc;;;;;;;;;;;;;;x;
-#;x;x;;;;;;;;;;;;x
-TP_AGRI_moulin_L1;Flour: Water-powered Mill;FARINE : Moulin à aubes;;;;;;;;;;;;x
-TP_AGRI_moulin_L1_desc;A modest watermill placed along the bank of the river.;Un modeste moulin à eau placé le long de la rive.;;;;;;;;;;;;x
-TP_AGRI_moulin_L2;Flour: Waterwheel Mill;FARINE : Moulin à noria;;;;;;;;;;;;x
-TP_AGRI_moulin_L2_desc;The watermill makes use of a massive wheel which serves to turn the grindstone ;Le moulin à eau est ici doté d'une immense roue appelée noria, bien plus efficace.;;;;;;;;;;;;x
-TP_AGRI_moulin_L3;Flour: Communal Mill;FARINE : Grand moulin citadin;;;;;;;;;;;;x
-TP_AGRI_moulin_L3_desc;The construction of a small canal to assure a regular flow of water to power the mill has increased its production.;L'installation au bord la rivière est ici alimentée par un petit canal dédié qui assure un débit régulier et ainsi une bien meilleure production.;;;;;;;;;;;;x
-TP_AGRI_boulangerie_L1;Bread: Bakers' Shops;PAIN : Four commun;;;;;;;;;;;;x
-TP_AGRI_boulangerie_L1_desc;;;;;;;;;;;;;;x
-TP_AGRI_boulangerie_L2;Bread: Baker's Street;PAIN : Four en pierre;;;;;;;;;;;;x
-TP_AGRI_boulangerie_L2_desc;;;;;;;;;;;;;;x
-TP_AGRI_boulangerie_L3;Bread: Baker's Guild;PAIN : Boulanger;;;;;;;;;;;;x
-TP_AGRI_boulangerie_L3_desc;;;;;;;;;;;;;;x
-TP_FISH_fumoir_L1;Smoked Fish: Fishmongers' Shops;FUMAISON : atelier;;;;;;;;;;;;x
-TP_FISH_fumoir_L1_desc;;On fume ici divers produits pour leur conservation, mais principalement du poisson;;;;;;;;;;;;x
-TP_FISH_fumoir_L2;Smoked Fish: Communal Smokehouse;FUMAISON : atelier communal;;;;;;;;;;;;x
-TP_FISH_fumoir_L2_desc;;;;;;;;;;;;;;x
-TP_FISH_fumoir_L3;Smoked Fish: Fishmongers' Guild;FUMAISON : manufacture;;;;;;;;;;;;x
-TP_FISH_fumoir_L3_desc;;;;;;;;;;;;;;x
-TP_four_L1;Glass: Glaziers' Shops;VERRE : atelier;;;;;;;;;;;;x
-TP_four_L1_desc;;On fabrique ici du verre brut qui demande ensuite a être retravaillé;;;;;;;;;;;;x
-TP_four_L2;Glass: Modest Glass Manufactory;VERRE : fabrique;;;;;;;;;;;;x
-TP_four_L2_desc;;;;;;;;;;;;;;x
-TP_four_L3;Glass: Expanded Glass Manufactory;VERRE : maître verrier;;;;;;;;;;;;x
-TP_four_L3_desc;;;;;;;;;;;;;;x
-#;x;x;;;;;;;;;;;;x
+
+
+
+CT_port_commercial_L1;TRADE: Coastal quay;COMMERCE : Quai côtier;;;;;;;;;;;;x
+CT_port_commercial_L2;TRADE: Flourishing harbor;COMMERCE : Port prospère;;;;;;;;;;;;x
+CT_port_commercial_L3;TRADE: Mercantile harbor;COMMERCE : Port commercial;;;;;;;;;;;;x
+CT_port_commercial_L4;TRADE: Great mercantile harbor;COMMERCE : Grand port marchand;;;;;;;;;;;;x
+CT_port_commercial_desc;;;;;;;;;;;;;;x
+
+#;;;;;;;;;;;;;;x
 #NIVEAU COMMERCIAL;;;;;;;;;;;;;;x;
 #COMPTOIR_L1;COMMERCIAL PLACE;PLACE COMMERCIALE;;;;;;;;;;;;;x
 #COMPTOIR_L1_desc;;Cette ville est reliée à un itinéraire commercial, qu'il s'agisse d'un comptoir patricien ou d'une route terrestre ou fluviale. Cette situation privilégiée permet un meilleur développement de nos infrastructures commerciales.;;;;;;;;;;;;;x
@@ -517,7 +347,7 @@ TP_four_L3_desc;;;;;;;;;;;;;;x
 #COMPTOIR_L2_desc;Cette cité est située au croisement de deux itinéraires commerciaux. Il peut s'agir de comptoirs patriciens ou de routes terrestres ou fluviales. Cette situation privilégiée permet un meilleur développement de nos infrastructures commerciales.;Cette cité est située au croisement de deux itinéraires commerciaux. Il peut s'agir de comptoirs patriciens ou de routes terrestres ou fluviales. Cette situation privilégiée permet un meilleur développement de nos infrastructures commerciales.;;;;;;;;;;;;;x
 #COMPTOIR_L3;COMMERCIAL CENTRE;CENTRE DE COMMERCE;;;;;;;;;;;;;x
 #COMPTOIR_L3_desc;;Cette cité se trouve au carrefour de pas moins de trois routes commerciales. Il peut s'agir de comptoirs patriciens ou de routes terrestres ou fluviales. Cette situation privilégiée permet un meilleur développement de nos infrastructures commerciales.;;;;;;;;;;;;;x
-#;;;;;;;;;;;;;;x;
+
 #;;CATHEDRAL;;;;;;;;;;;;x
 ca_cathedrale_01;Cathedral, Building site overture;Cathédrale, Ouverture du chantier;;;;;;;;;;;;x
 ca_cathedrale_02;Cathedral, Foundations;Cathédrale, Fondations;;;;;;;;;;;;x
@@ -574,6 +404,7 @@ cathedrale_11_desc;The Cathedral's Spire faces heaven and continues to adds to t
 cathedrale_12_desc;The cathedral's construction has been completed at last! Its shining marble edifice and intricate craftsmanship tower over the city, offering the populace a glimpse of Heaven. Pilgrims and sinners from far and wide flock here in droves, generously giving alms in hopes of salvation and gaining favor with God.;Cette cathédrale est enfin parachevée et fait rayonner la toute puissance divine sur les terres environnantes et par la même occasion procure au seigneur local la gloire et le fruit de la taxation du détenteur d'un tel édifice où affluent pèlerins et pécheurs en quête de salut.;;;;;;;;;;;;x
 tp_roman_cathedrale_desc;Cathedral of the early Middle Ages in Romanesque style.;Cathédrale du début du Moyen Age de style roman.;;;;;;;;;;;;x
 tp_constructing_roman_cathedrale_desc;Cathedral of the early Middle Ages in Romanesque style in reconstruction after burning.;Cathédrale du début du Moyen Age de style roman en reconstruction suite à un incendie.;;;;;;;;;;;;x
+
 #;;ANNEXES;;;;;;;;;;;;x;;;;;;;;;;;;x
 ca_loge;Workers' lodge;Loge des ouvriers;;;;;;;;;;;;x
 ca_hotel_pelerins;Pilgrim's inn;Auberge des pèlerins;;;;;;;;;;;;x
@@ -596,7 +427,7 @@ hotel_pelerins_desc;;L'auberge permet d'accueillir davantage de pèlerins;;;;;;;;
 guilde_sculpteur_desc;;La guilde de sculpteurs est une véritable organisation de sculpteurs.\nElle permet de gérer une activité rentable au delà de la construction de monuments.;;;;;;;;;;;;x
 guilde_fresquiste_desc;;La guilde de fresquistes est une véritable organisation de fresquistes.\nElle permet de gérer une activité rentable au delà de la construction de monuments.;;;;;;;;;;;;x
 guilde_verrier_desc;;La guilde de verriers est une véritable organisation de verriers.\nElle permet de gérer une activité rentable au delà de la construction de monuments.;;;;;;;;;;;;x
-#;;x;;;;;;;;;;;;x
+
 #;;SPECIALISATIONS;;;;;;;;;;;;x
 FEODAL_mil;Specialization: Citadel;Spécialisation : FORTERESSE;;;;;;;;;;;;x
 FEODAL_mil_desc;Designating this holding as a §YCitadel§! allows the holder to develop it from a military outpost to a veritable fortress, capable of supporting and protecting large numbers of highly-trained troops behind its impregnable walls.;Choisir cette voie mènera à développer ce domaine d'un simple poste frontière à une véritable §Yforteresse§!, fournissant troupes en nombre et offrant une efficace protection derrière ses murs. \n\nCe bâtiment est une §Yspécialisation§! de domaine.;;;;;;;;;;x
@@ -630,12 +461,21 @@ CITE_L1_desc;This burgeoning city is developing from a small market to a signifi
 #CITE_L3;Major Urban Center;GRANDE CITÉ ;;;;;;;;;;;;x
 #CITE_L3_desc;This city has risen in prominence among the great municipalities of the realm and is renowned for its great wealth. Merchant caravans arrive in droves and the burghers' wealth rivals that of even the high nobility.;Une grande cité, riche et bien peuplée : une mine d'or mais bien gardée ! ;;;;;;;;;;x
 VOC_INDUSTRIELLE;Specialization: Manufacturing and Artisanry;Spécialisation : Production et artisanat;;;;;;;;;;;;x
+<<<<<<< HEAD
 VOC_INDUSTRIELLE_DESC;Specializing this holding as a center of §YManufacturing and Artisanry§! allows the holder to focus solely on the extraction and production of processed and luxury goods to be used by the local lord or exported for profit.;Cette cité s'est spécialisée dans l'extraction et la §Yproduction§! de matières premières ainsi que dans leur transformation. Elle en retire de bons revenus.  \n\nCe bâtiment est une §Yspécialisation§! de domaine.;;;;;;;;;;;;x
 VOC_COMMERCIALE;Specialization: Trade and Commerce;Spécialisation : Commerce et péages;;;;;;;;;;;;x
 VOC_COMMERCIALE_DESC;Specializing this holding as a center of Trade and Commerce allows the holder to focus solely on facilitating and expanding the passage of numerous trade routes and the levying of tolls and taxes upon the droves of merchants flocking here seeking to make a generous profit.;Cette cité s'est spécialisée dans les activités de §Ycommerce§! et retire des bénéfices par tous les moyens, marchés, foires, péages entre autres.  \n\nCe bâtiment est une §Yspécialisation§! de domaine.;;;;;;;;;;;;x
 MONASTERE;Specialization: MONASTERY;Spécialisation : MONASTÈRE ;;;;;;;;;;;;x
 MONASTERE_desc;Specializing this holding as a §YMonastery§! this allows the holder to facilitate the growth of a thriving monastic community. These humble, isolated institutions act as repositories of knowledge as well as tend to the people's illnesses and disease. Some orders are also actively involved in land reclamation and small-scale industry.;"Travail et Prière" : tel est le crédo de la vie des moines oeuvrant dans les §Ymonastères§!. Souvent isolés, les institutions monastiques sont les conservatoires du savoir et source d'éducation. Vous pouvez compter sur ces communautés pour leurs rôles dans le défrichement de terres nouvelles et également soigner les maux de tous. \n\nCe bâtiment est une §Yspécialisation§! de domaine.;;;;;;;;;;x
 CITEEPISCOPALE;Specialization: Episcopal City;Spécialisation : CITÉ ÉPISCOPALE ;;;;;;;;;;;;x
+=======
+VOC_INDUSTRIELLE_DESC;Specializing this holding as a center of §YManufacturing and Artisanry§! allows the holder to focus solely on the extraction and production of processed and luxury goods to be used by the local lord or exported for profit.;Cette cité s'est spécialisée dans l'extraction et la production de matières premières ainsi que dans leur transformation. Elle en attire de bons revenus. ;;;;;;;;;;;;x
+VOC_COMMERCIALE;Specialization: Trade and Commerce;Spécialisation : Commerce et péages;;;;;;;;;;;;x
+VOC_COMMERCIALE_DESC;Specializing this holding as a center of §YTrade and Commerce§! allows the holder to focus solely on facilitating and expanding the passage of numerous trade routes and the levying of tolls and taxes upon the droves of merchants flocking here seeking to make a generous profit.;Cette cité s'est spécialisée dans les activités de commerce et retire des bénéfices par tous les moyens, marchés, foires, péages entre autres. ;;;;;;;;;;;;x
+MONASTERE;Specialization: MONASTERY;MONASTÈRE ;;;;;;;;;;;;x
+MONASTERE_desc;Specializing this holding as a §YMonastery§! this allows the holder to facilitate the growth of a thriving monastic community. These humble, isolated institutions act as repositories of knowledge as well as tend to the people's illnesses and disease. Some orders are also actively involved in land reclamation and small-scale industry.;"Travail et Prière" : tel est le crédo de la vie monastique. Souvent isolés, les institutions monastiques sont les conservatoires du savoir et source d'éducation. Vous pouvez compter sur ces communautés pour leurs rôles dans le défrichement de terres nouvelles et également soigner les maux de tous.;;;;;;;;;;x
+CITEEPISCOPALE;Specialization: Episcopal See;CITÉ ÉPISCOPALE ;;;;;;;;;;;;x
+>>>>>>> 800a35b35f89df8b111806a55db542e4f91f3534
 #CITEEPISCOPALE_muslim;Specialization: Grand Mosque;CENTRE RELIGIEUX ;;;;;;;;;;;;x
 #CITEEPISCOPALE_zoroastrian_group;Specialization: Great Fire Temple;CENTRE RELIGIEUX ;;;;;;;;;;;;x
 #CITEEPISCOPALE_pagan_group;Specialization: Grand Temple;CENTRE RELIGIEUX ;;;;;;;;;;;;x

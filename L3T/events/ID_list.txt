@@ -239,19 +239,21 @@
 #id = ECO.81 #évaluation du potentiel économique -jungle-
 #id = ECO.82 #évaluation du potentiel économique -arctique-  
 #id = ECO.15 #reroll pour les malchanceux (voir détection ressources)
+#id = ECO.16 #marquage port unique
+#id = ECO.17 #marquage holding ressources L2
 
 ##activation ressources
-#id = ECO.100 #activation pour commerce -agriculture -céréales 
+#id = ECO.100 #activation pour commerce -agriculture -céréales //province
 #id = ECO.101 #activation pour commerce -agriculture -fruits
 #id = ECO.102 #activation pour commerce -agriculture -légumes
-#id = ECO.103 #activation pour commerce -agriculture -vigne
 
+#id = ECO.103 # LIBRE
 #id = ECO.104 # LIBRE
 
 #id = ECO.105 #activation pour commerce -agriculture -bière
 #id = ECO.106 #activation pour commerce -agriculture -vin
 #id = ECO.107 #activation pour commerce -agriculture -farine 
-#id = ECO.108 #activation pour commerce -agriculture -cidre 
+#id = ECO.108 # LIBRE
 #id = ECO.109 #activation pour commerce -agriculture -pain
 
 #id = ECO.110 #activation pour commerce -elevage -ovin laine-
@@ -263,16 +265,16 @@
 #id = ECO.116 #activation pour commerce -elevage -drap-
 #id = ECO.117 #activation pour commerce -elevage -cheval- 
 
-#id = ECO.120 #activation pour commerce -foret -bois- 
-#id = ECO.121 #activation pour commerce -foret -charbon-
-#id = ECO.122 #activation pour commerce -foret -planche-
-#id = ECO.123 #activation pour commerce -foret -verre- 
+#id = ECO.120 # LIBRE
+#id = ECO.121 #activation pour commerce -foret -charbon- //province
+#id = ECO.122 #activation pour commerce -foret -planche- //province
+#id = ECO.123 #activation pour commerce -foret -verre- //province uniquement
 
 #id = ECO.124 #activation pour commerce -luxe -peaux-
 #id = ECO.125 #activation pour commerce -luxe -joyaux-
 #id = ECO.126 #activation pour commerce -luxe -epices-
 
-#id = ECO.130 #activation pour commerce -pierre- 
+#id = ECO.130 # LIBRE
 #id = ECO.131 #activation pour commerce -pierre taille- 
 
 #id = ECO.132 #décompte minerai on_action
@@ -304,10 +306,13 @@
 #id = ECO.147 #activation pour commerce -minerai -salaison-
 #id = ECO.148 #activation pour commerce -minerai -armes-
 
-#id = ECO.150 #activation pour commerce -peche -poisson-
-#id = ECO.151 #activation pour commerce -pisciculture -poisson-
+#id = ECO.150 # LIBRE
+#id = ECO.151 # LIBRE
 #id = ECO.152 #activation pour commerce -peche/pisciculture -fumaison-
 
+#id = ECO.160 #activation nourriture en local (modifier unique)
+#id = ECO.161 #activation nourriture pour commerce avec marché (variable)
+#id = ECO.162 #activation nourriture pour commerce avec marché (modifier from variable)
 
 ###ECO+_init_COMMERCE.txt
 
@@ -562,9 +567,8 @@
 
 ###XYLO_specialisation.txt   
 #id = XYLO.1 # initialisation Recruter un forestier
-#id = XYLO.2 # initialisation Forêts féodales
-#id = XYLO.3 # initialisation Forêts communales
-#id = XYLO.4 # initialisation Forêts cléricales
+#id = XYLO.2 # initialisation spec Forêts on_action
+#id = XYLO.3 # initialisation spec Forêts féodales/communales/cléricales
 
 ###[NON INCLUS] XYLO_champis.txt
 #des champignons !

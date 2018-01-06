@@ -209,7 +209,7 @@ character_event = {
 						}
 					}
 				}
-				save_event_target_as = holding_dev #totoro
+				#save_event_target_as = holding_dev #totoro
 				set_variable = { which = "developpementold" which = "developpement" } #copies to the new set variable the value of the 2nd one
 				if = {
 					limit = {
@@ -286,10 +286,17 @@ character_event = {
 					is_occupied = yes
 					location = { has_disease = no }
 				}
+<<<<<<< HEAD
 				save_event_target_as = holding_dev
 				set_variable = { which = "developpementold" which = "developpement" }
 				#holder_scope = { character_event = { id = L3T.1106 days = 0 }}
 				holder_scope = { character_event = { id = L3T.11033 days = 0 }}
+=======
+				#save_event_target_as = holding_dev #totoro
+				set_variable = { which = "developpementold" which = "developpement" }
+				#change_variable = { which = "developpement" value = 1 } 
+				#holder_scope = { character_event = { id = L3T.1106 days = 0 }} #totoro
+>>>>>>> 800a35b35f89df8b111806a55db542e4f91f3534
 			}
 			if = {
 				limit = {
@@ -298,9 +305,15 @@ character_event = {
 					location = { has_disease = no }
 				}
 				set_variable = { which = "developpementold" which = "developpement" }
+<<<<<<< HEAD
 				save_event_target_as = holding_dev
 				#holder_scope = { character_event = { id = L3T.1106 days = 0 }}
 				holder_scope = { character_event = { id = L3T.11033 days = 0 }}
+=======
+				#change_variable = { which = "developpement" value = 1 } #totoro
+				#save_event_target_as = holding_dev #totoro
+				#holder_scope = { character_event = { id = L3T.1107 days = 0 }} #totoro
+>>>>>>> 800a35b35f89df8b111806a55db542e4f91f3534
 			}		
 		}
 	}

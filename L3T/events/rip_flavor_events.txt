@@ -2929,7 +2929,7 @@ character_event = {
 				has_province_modifier = depopulated_1
 				has_province_modifier = depopulated_2
 				has_province_modifier = depopulated_3
-				has_province_modifier = prosperityz_modifier_3
+				has_province_modifier = prosperityz_modifier_3 #L3T
 				any_province_holding = {
 					has_siege = yes
 				}
@@ -2990,7 +2990,7 @@ character_event = {
 					has_province_modifier = depopulated_1
 					has_province_modifier = depopulated_2
 					has_province_modifier = depopulated_3
-					has_province_modifier = prosperityz_modifier_3
+					has_province_modifier = prosperityz_modifier_3 #L3T
 					any_province_holding = {
 						has_siege = yes
 					}
@@ -3082,7 +3082,7 @@ character_event = {
 				has_province_modifier = depopulated_1
 				has_province_modifier = depopulated_2
 				has_province_modifier = depopulated_3
-				has_province_modifier = prosperityz_modifier_3
+				has_province_modifier = prosperityz_modifier_3 #L3T
 				any_province_holding = {
 					has_siege = yes
 				}
@@ -3143,7 +3143,7 @@ character_event = {
 					has_province_modifier = depopulated_1
 					has_province_modifier = depopulated_2
 					has_province_modifier = depopulated_3
-					has_province_modifier = prosperityz_modifier_3
+					has_province_modifier = prosperityz_modifier_3 #L3T
 					any_province_holding = {
 						has_siege = yes
 					}
@@ -3235,7 +3235,7 @@ character_event = {
 				has_province_modifier = depopulated_1
 				has_province_modifier = depopulated_2
 				has_province_modifier = depopulated_3
-				has_province_modifier = prosperityz_modifier_3
+				has_province_modifier = prosperityz_modifier_3 #L3T
 				any_province_holding = {
 					has_siege = yes
 				}
@@ -3296,7 +3296,7 @@ character_event = {
 					has_province_modifier = depopulated_1
 					has_province_modifier = depopulated_2
 					has_province_modifier = depopulated_3
-					has_province_modifier = prosperityz_modifier_3
+					has_province_modifier = prosperityz_modifier_3 #L3T
 					any_province_holding = {
 						has_siege = yes
 					}
@@ -3388,7 +3388,7 @@ character_event = {
 				has_province_modifier = depopulated_1
 				has_province_modifier = depopulated_2
 				has_province_modifier = depopulated_3
-				has_province_modifier = prosperityz_modifier_3
+				has_province_modifier = prosperityz_modifier_3 #L3T
 				any_province_holding = {
 					has_siege = yes
 				}
@@ -3449,7 +3449,7 @@ character_event = {
 					has_province_modifier = depopulated_1
 					has_province_modifier = depopulated_2
 					has_province_modifier = depopulated_3
-					has_province_modifier = prosperityz_modifier_3
+					has_province_modifier = prosperityz_modifier_3 #L3T
 					any_province_holding = {
 						has_siege = yes
 					}
@@ -3541,7 +3541,7 @@ character_event = {
 				has_province_modifier = depopulated_1
 				has_province_modifier = depopulated_2
 				has_province_modifier = depopulated_3
-				has_province_modifier = prosperityz_modifier_3
+				has_province_modifier = prosperityz_modifier_3 #L3T
 				any_province_holding = {
 					has_siege = yes
 				}
@@ -3602,7 +3602,7 @@ character_event = {
 					has_province_modifier = depopulated_1
 					has_province_modifier = depopulated_2
 					has_province_modifier = depopulated_3
-					has_province_modifier = prosperityz_modifier_3
+					has_province_modifier = prosperityz_modifier_3 #L3T
 					any_province_holding = {
 						has_siege = yes
 					}
@@ -3693,7 +3693,7 @@ character_event = {
 				has_province_modifier = depopulated_1
 				has_province_modifier = depopulated_2
 				has_province_modifier = depopulated_3
-				has_province_modifier = prosperityz_modifier_3
+				has_province_modifier = prosperityz_modifier_3 #L3T
 				any_province_holding = {
 					has_siege = yes
 				}
@@ -3739,7 +3739,7 @@ character_event = {
 					has_province_modifier = depopulated_1
 					has_province_modifier = depopulated_2
 					has_province_modifier = depopulated_3
-					has_province_modifier = prosperityz_modifier_3
+					has_province_modifier = prosperityz_modifier_3 #L3T
 					any_province_holding = {
 						has_siege = yes
 					}
@@ -6534,7 +6534,11 @@ character_event = {
 		scaled_wealth = { value = -0.75 min = -100 }
 
 		add_artifact = prosthetic_hand_gold
+<<<<<<< HEAD
 		}
+=======
+	}
+>>>>>>> 800a35b35f89df8b111806a55db542e4f91f3534
 
 	#Iron hand
 	option = {

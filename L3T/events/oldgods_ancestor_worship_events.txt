@@ -424,7 +424,11 @@ character_event = {
 
 		event_target:human_sacrifice_courtier = { save_event_target_as = kinslayer_target }
 		add_kinslayer_trait_effect = yes
+<<<<<<< HEAD
 
+=======
+		
+>>>>>>> 800a35b35f89df8b111806a55db542e4f91f3534
 		hidden_tooltip = { character_event = { id = TOG.7002 days = 3 } }
 	}
 
@@ -1794,7 +1798,7 @@ character_event = {
 		if = {
 			limit = { 
 				has_dlc = "Reapers" 
-				NOT = { capital_scope = { has_province_modifier = prosperityz_modifier_3 } }
+				NOT = { capital_scope = { has_province_modifier = prosperityz_modifier_3 } } #L3T
 			}
 			capital_scope = { increase_prosperity_effect = yes }
 		}
@@ -1803,7 +1807,7 @@ character_event = {
 			limit = { 
 				OR = {
 					NOT = { has_dlc = "Reapers" } 
-					capital_scope = { has_province_modifier = prosperityz_modifier_3 }
+					capital_scope = { has_province_modifier = prosperityz_modifier_3 } #L3T
 				}
 			}
 			scaled_wealth = { value = 1 min = 50 }
@@ -3699,7 +3703,11 @@ character_event = {
 				}
 			}
 		}
+<<<<<<< HEAD
 	}	
+=======
+	}
+>>>>>>> 800a35b35f89df8b111806a55db542e4f91f3534
 
 	after = { clear_event_target = thunder_target }
 }
@@ -4440,27 +4448,36 @@ character_event = {
 
 		#Changes depopulation/prosperity
 		capital_scope = {
+<<<<<<< HEAD
 		if = {
 			limit = {
 				has_dlc = "Reapers"
 				NOT = { has_province_modifier = prosperityz_modifier_3 }
 			}
+=======
+>>>>>>> 800a35b35f89df8b111806a55db542e4f91f3534
 			if = {
-				limit = { has_province_modifier = depopulated_1 }
+				limit = {
+					has_dlc = "Reapers"
+					NOT = { has_province_modifier = prosperityz_modifier_3 } #L3T
+				}
+				if = {
+					limit = { has_province_modifier = depopulated_1 }
 
-				remove_province_modifier = depopulated_1
-				break = yes
-			}	
-			if = {
-				limit = { has_province_modifier = depopulated_2 }
+					remove_province_modifier = depopulated_1
+					break = yes
+				}	
+				if = {
+					limit = { has_province_modifier = depopulated_2 }
 
-				remove_province_modifier = depopulated_2
-				add_province_modifier = { name = depopulated_1 duration = -1 }
-				break = yes
-			}
-			if = {
-				limit = { has_province_modifier = depopulated_3 }
+					remove_province_modifier = depopulated_2
+					add_province_modifier = { name = depopulated_1 duration = -1 }
+					break = yes
+				}
+				if = {
+					limit = { has_province_modifier = depopulated_3 }
 
+<<<<<<< HEAD
 				remove_province_modifier = depopulated_3
 				add_province_modifier = { name = depopulated_2 duration = -1 }
 				break = yes
@@ -4472,8 +4489,24 @@ character_event = {
 				OR = {
 					NOT = { has_dlc = "Reapers" }
 					has_province_modifier = prosperityz_modifier_3
+=======
+					remove_province_modifier = depopulated_3
+					add_province_modifier = { name = depopulated_2 duration = -1 }
+					break = yes
+>>>>>>> 800a35b35f89df8b111806a55db542e4f91f3534
 				}
+				increase_prosperity_effect = yes
 			}
+<<<<<<< HEAD
+=======
+			if = {
+				limit = {
+					OR = {
+						NOT = { has_dlc = "Reapers" }
+						has_province_modifier = prosperityz_modifier_3 #L3T
+					}
+				}
+>>>>>>> 800a35b35f89df8b111806a55db542e4f91f3534
 				add_province_modifier = { 
 					name = blessed_lands 
 					years = 10

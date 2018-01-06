@@ -131,9 +131,15 @@ province_event = { # Clear the 'Rampaging Nomads'-Modifier when province is empt
 				}
 			}
 			remove_province_modifier = rampaging_nomads
+<<<<<<< HEAD
 			remove_province_modifier = prosperity_modifier_1
 			remove_province_modifier = prosperity_modifier_2
 			remove_province_modifier = prosperity_modifier_3
+=======
+			remove_province_modifier = prosperityz_modifier_1
+			remove_province_modifier = prosperityz_modifier_2
+			remove_province_modifier = prosperityz_modifier_3
+>>>>>>> 800a35b35f89df8b111806a55db542e4f91f3534
 			remove_province_modifier = depopulated_1
 			remove_province_modifier = depopulated_2
 			remove_province_modifier = depopulated_3
@@ -774,7 +780,10 @@ character_event = {
 						AND = {
 							is_ruler = yes
 							is_landed = no	
+<<<<<<< HEAD
 							NOT = { is_offmap_governor = yes } #offmap governors do not become nomads
+=======
+>>>>>>> 800a35b35f89df8b111806a55db542e4f91f3534
 						}
 						has_character_modifier = raiding_adventurer_nomad_timer
 					}
@@ -817,7 +826,10 @@ character_event = {
 						AND = {
 							is_ruler = yes
 							is_landed = no	
+<<<<<<< HEAD
 							NOT = { is_offmap_governor = yes } #offmap governors do not become tribal
+=======
+>>>>>>> 800a35b35f89df8b111806a55db542e4f91f3534
 						}
 						has_character_modifier = raiding_adventurer_tribal_timer
 					}

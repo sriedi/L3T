@@ -18,8 +18,8 @@ province_event = {
 	trigger = {
 		OR = {
 			has_province_modifier = agriculture2_cereales
-			has_province_modifier = agriculture2_fruits		
-			has_province_modifier = agriculture2_legumes		
+			#has_province_modifier = agriculture2_fruits		
+			#has_province_modifier = agriculture2_legumes		
 		}
 		NOT = { has_province_modifier = meteo_inondation }
 		NOT = { has_province_modifier = meteo_secheresse }
@@ -68,7 +68,7 @@ province_event = {
 	trigger = {
 		OR = {
 			has_province_modifier = agriculture2_cereales
-			has_province_modifier = agriculture2_fruits		
+			#has_province_modifier = agriculture2_fruits		
 			has_province_modifier = agriculture2_legumes		
 		}
 		NOT = { has_province_modifier = recolte_bonne }
@@ -437,12 +437,12 @@ province_event = {
 		owner = { war = no }
 		OR = {
 			has_province_modifier = agriculture3_biere
-			has_province_modifier = agriculture3_cidre
+			#has_province_modifier = agriculture3_cidre
 			has_province_modifier = agriculture3_vin
 			has_province_modifier = elevage3_etoffe
 			has_province_modifier = elevage3_cuir
 			has_province_modifier = foret3_planche
-			has_province_modifier = foret3_verre
+			has_province_modifier = foret4_verre
 			has_province_modifier = pierre3_pierre_taille
 			has_province_modifier = minerai3_metal
 			has_province_modifier = minerai3_salaison
@@ -521,11 +521,11 @@ province_event = {
 	mean_time_to_happen = { 
 		years = 15
 		modifier = { factor = 0.15	any_neighbor_province = { has_province_modifier = meteo_inondation } }
-		modifier = { factor = 0.98	owner = { NOT = { piety = 100 } } } #punition divine hahahaha !
-		modifier = { factor = 0.97	owner = { NOT = { piety = 200 } } }
-		modifier = { factor = 0.96	owner = { NOT = { piety = 300 } } }
-		modifier = { factor = 0.95	owner = { NOT = { piety = 400 } } }
-		modifier = { factor = 0.95	owner = { NOT = { piety = 500 } } }
+		#modifier = { factor = 0.98	owner = { NOT = { piety = 100 } } } #punition divine hahahaha !
+		modifier = { factor = 0.92	owner = { NOT = { piety = 200 } } }
+		modifier = { factor = 0.94	owner = { NOT = { piety = 300 } } }
+		modifier = { factor = 0.96	owner = { NOT = { piety = 400 } } }
+		modifier = { factor = 0.98	owner = { NOT = { piety = 500 } } }
 		modifier = { factor = 0.90	borders_major_river = yes }
 		modifier = { factor = 0.90	has_province_modifier = province_fleuve }
 		modifier = { factor = 1.50	terrain = desert }
@@ -599,11 +599,11 @@ province_event = {
 	mean_time_to_happen = { 
 		years = 15
 		modifier = { factor = 0.10	any_neighbor_province = { has_province_modifier = meteo_secheresse } }
-		modifier = { factor = 0.98	owner = { NOT = { piety = 100 } } } #punition divine hahahaha !
-		modifier = { factor = 0.96	owner = { NOT = { piety = 200 } } }
+		#modifier = { factor = 0.98	owner = { NOT = { piety = 100 } } } #punition divine hahahaha !
+		modifier = { factor = 0.92	owner = { NOT = { piety = 200 } } }
 		modifier = { factor = 0.94	owner = { NOT = { piety = 300 } } }
-		modifier = { factor = 0.92	owner = { NOT = { piety = 400 } } }
-		modifier = { factor = 0.90	owner = { NOT = { piety = 500 } } }
+		modifier = { factor = 0.96	owner = { NOT = { piety = 400 } } }
+		modifier = { factor = 0.98	owner = { NOT = { piety = 500 } } }
 		modifier = { factor = 1.20	has_province_modifier = province_fleuve }
 		modifier = { factor = 0.50	terrain = desert }
 		modifier = { factor = 0.90	any_neighbor_province = { terrain = desert } }

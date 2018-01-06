@@ -1,5 +1,6 @@
 spriteTypes = 
 {
+   ###EVENT PICTURES
 	spriteType = {
 		name = "GFX_evt_XYLO_forest1"
 		texturefile = "gfx\\event_pictures\XYLOforest1.tga"
@@ -100,6 +101,18 @@ spriteTypes =
 		texturefile = "gfx\\event_pictures\ECO1.tga"
 		allwaystransparent = yes
 	}
+	
+	spriteType = {
+		name = "GFX_evt_ECO_outils_forge" #forge alt
+		texturefile = "gfx\\event_pictures\ECO_outils_forge.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_ECO_etoffe_marche" #stands 
+		texturefile = "gfx\\event_pictures\ECO_etoffe_marche.tga"
+		allwaystransparent = yes
+	}
+	
 	spriteType = {
 		name = "GFX_evt_CK1" #CK1 picture
 		texturefile = "gfx\\event_pictures\CK1.tga"
@@ -178,6 +191,11 @@ spriteTypes =
 	spriteType = {
 		name = "GFX_evt_L3T_book_burning" #
 		texturefile = "gfx\\event_pictures\L3T_book_burning.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_L3Tv_hermes" #messenger guy
+		texturefile = "gfx\\event_pictures\L3T_verti_hermes.tga"
 		allwaystransparent = yes
 	}
 }

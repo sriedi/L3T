@@ -1,16 +1,23 @@
 spriteTypes = 
 {
+<<<<<<< HEAD
    ###VERTICAL EVENT PICTURES
+=======
+   ###EVENT PICTURES
+>>>>>>> 800a35b35f89df8b111806a55db542e4f91f3534
 	spriteType = {
 		name = "GFX_evt_L3Tv_hermes" #messenger guy
 		texturefile = "gfx\\event_pictures\L3T_verti_hermes.tga"
 		allwaystransparent = yes
 	}
+<<<<<<< HEAD
 	spriteType = {
 		name = "GFX_evt_L3Tv_church" #
 		texturefile = "gfx\\event_pictures\L3T_verti_church.tga"
 		allwaystransparent = yes
 	}
+=======
+>>>>>>> 800a35b35f89df8b111806a55db542e4f91f3534
 	
    ###L3T vertical event type
 	spriteType = {

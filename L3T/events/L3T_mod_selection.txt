@@ -1,5 +1,6 @@
 namespace = L3T
 
+<<<<<<< HEAD
 ## Mode debug
 character_event = {
     id = L3T.1
@@ -25,6 +26,10 @@ character_event = {
 }
 
 ## Détection de la carte
+=======
+# Détection de la carte
+
+>>>>>>> 800a35b35f89df8b111806a55db542e4f91f3534
 character_event = {
     id = L3T.10
 	#title = "NAMEL3T.10"
@@ -60,7 +65,11 @@ character_event = {
 	
 	picture = GFX_evt_L3Tv_hermes
 	window = EventWindowL3T
+<<<<<<< HEAD
 
+=======
+	
+>>>>>>> 800a35b35f89df8b111806a55db542e4f91f3534
 	major = yes
 	hide_new = yes
 	hide_from = yes

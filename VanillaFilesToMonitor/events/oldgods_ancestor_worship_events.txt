@@ -387,8 +387,21 @@ character_event = {
 
 		event_target:human_sacrifice_prisoner = { death = { death_reason = death_sacrificed_ancestors killer = ROOT } }
 
+<<<<<<< HEAD
 		event_target:human_sacrifice_prisoner = { save_event_target_as = kinslayer_target }
 		add_kinslayer_trait_effect = yes
+=======
+		if = {
+			limit = {
+				dynasty = event_target:human_sacrifice_prisoner
+				is_close_relative = event_target:human_sacrifice_prisoner
+				NOT = { trait = kinslayer } 
+			}
+			
+			add_trait = kinslayer 
+			character_event = { id = 38287 }
+		}
+>>>>>>> 800a35b35f89df8b111806a55db542e4f91f3534
 
 		hidden_tooltip = { character_event = { id = TOG.7002 days = 3 } }
 	}
@@ -422,9 +435,23 @@ character_event = {
 
 		event_target:human_sacrifice_courtier = { death = { death_reason = death_sacrificed_ancestors killer = ROOT } }
 
+<<<<<<< HEAD
 		event_target:human_sacrifice_courtier = { save_event_target_as = kinslayer_target }
 		add_kinslayer_trait_effect = yes
 		
+=======
+		if = {
+			limit = {
+				dynasty = event_target:human_sacrifice_courtier
+				is_close_relative = event_target:human_sacrifice_courtier
+				NOT = { trait = kinslayer } 
+			}
+			
+			add_trait = kinslayer 
+			character_event = { id = 38287 }
+		}
+
+>>>>>>> 800a35b35f89df8b111806a55db542e4f91f3534
 		hidden_tooltip = { character_event = { id = TOG.7002 days = 3 } }
 	}
 
@@ -1794,7 +1821,11 @@ character_event = {
 		if = {
 			limit = { 
 				has_dlc = "Reapers" 
+<<<<<<< HEAD
 				NOT = { capital_scope = { has_province_modifier = prosperity_modifier_3 } }
+=======
+				NOT = { capital_scope = { has_province_modifier = prosperityz_modifier_3 } }
+>>>>>>> 800a35b35f89df8b111806a55db542e4f91f3534
 			}
 			capital_scope = { increase_prosperity_effect = yes }
 		}
@@ -1803,7 +1834,11 @@ character_event = {
 			limit = { 
 				OR = {
 					NOT = { has_dlc = "Reapers" } 
+<<<<<<< HEAD
 					capital_scope = { has_province_modifier = prosperity_modifier_3 }
+=======
+					capital_scope = { has_province_modifier = prosperityz_modifier_3 }
+>>>>>>> 800a35b35f89df8b111806a55db542e4f91f3534
 				}
 			}
 			scaled_wealth = { value = 1 min = 50 }
@@ -3699,9 +3734,13 @@ character_event = {
 				}
 			}
 		}
+<<<<<<< HEAD
 	}
 
 	after = { clear_event_target = thunder_target }
+=======
+	}	
+>>>>>>> 800a35b35f89df8b111806a55db542e4f91f3534
 }
 
 #Lover
@@ -3773,9 +3812,14 @@ character_event = {
 	option = {
 		name = EVTOPTC_TOG_7510
 		custom_tooltip = { text = EVTOPTC_TOG_7510_TOOLTIP }
+<<<<<<< HEAD
 	}	
 
 	after = { clear_event_target = pagan_lover }
+=======
+
+	}	
+>>>>>>> 800a35b35f89df8b111806a55db542e4f91f3534
 }
 
 #Family is doing well
@@ -4272,8 +4316,11 @@ character_event = {
 			change_intrigue = -1
 		}
 	}
+<<<<<<< HEAD
 
 	after = { clear_event_target = death_child }
+=======
+>>>>>>> 800a35b35f89df8b111806a55db542e4f91f3534
 }
 
 #16 Martial, increased levy
@@ -4439,6 +4486,7 @@ character_event = {
 		name = EVTOPTA_TOG_7520
 
 		#Changes depopulation/prosperity
+<<<<<<< HEAD
 		capital_scope = {
 			if = {
 				limit = {
@@ -4474,6 +4522,43 @@ character_event = {
 						has_province_modifier = prosperity_modifier_3
 					}
 				}
+=======
+		if = {
+			limit = {
+				has_dlc = "Reapers"
+				capital_scope = { NOT = { has_province_modifier = prosperityz_modifier_3 } }
+			}
+			if = {
+				limit = { has_province_modifier = depopulated_1 }
+
+				remove_province_modifier = depopulated_1
+				break = yes
+			}	
+			if = {
+				limit = { has_province_modifier = depopulated_2 }
+
+				remove_province_modifier = depopulated_2
+				add_province_modifier = { name = depopulated_1 duration = -1 }
+				break = yes
+			}
+			if = {
+				limit = { has_province_modifier = depopulated_3 }
+
+				remove_province_modifier = depopulated_3
+				add_province_modifier = { name = depopulated_2 duration = -1 }
+				break = yes
+			}
+			capital_scope = { increase_prosperity_effect = yes }
+		}
+		if = {
+			limit = {
+				OR = {
+					NOT = { has_dlc = "Reapers" }
+					capital_scope = { has_province_modifier = prosperityz_modifier_3 }
+				}
+			}
+			capital_scope = {
+>>>>>>> 800a35b35f89df8b111806a55db542e4f91f3534
 				add_province_modifier = { 
 					name = blessed_lands 
 					years = 10
