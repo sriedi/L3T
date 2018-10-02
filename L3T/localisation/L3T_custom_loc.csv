@@ -1,77 +1,77 @@
 #;;CUSTOM_LOCALISATION;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;x
 #;;CATHEDRAL;;;;;;;;;;;;x
-ca_cathedrale_01_shorter;building site overture;'ouverture du chantier;;;;;;;;;;;;x
-ca_cathedrale_02_shorter;foundations;es fondations;;;;;;;;;;;;x
-ca_cathedrale_03_shorter;proto-cathedral;a proto-cathédrale;;;;;;;;;;;;x
-ca_cathedrale_04_shorter;portal;e portail;;;;;;;;;;;;x
-ca_cathedrale_05_shorter;magnificent Nave;a nef Magnifique;;;;;;;;;;;;x
-ca_cathedrale_06_shorter;transept;e transept;;;;;;;;;;;;x
-ca_cathedrale_07_shorter;northern tower;a tour Nord;;;;;;;;;;;;x
-ca_cathedrale_08_shorter;nouthern tower;a tour du Midi;;;;;;;;;;;;x
-ca_cathedrale_09_shorter;rose window;a grande Rosace;;;;;;;;;;;;x
-ca_cathedrale_10_shorter;feudal Chapel;a chapelle Seigneuriale;;;;;;;;;;;;x
-ct_cathedrale_10_shorter;chime;e carillon;;;;;;;;;;;;x
-tp_cathedrale_10_shorter;most holy chapel;a trés Sainte Chapelle;;;;;;;;;;;x
-ca_cathedrale_11_shorter;celestial spire;a flèche Céleste;;;;;;;;;;;;x
-ca_cathedrale_12_shorter;finishings;es finitions;;;;;;;;;;;;x
-avancement_normal;progresses on schedule;progresse selon les délais prévus;;;;;;;;;;;;x
-avancement_up;progresses with a smooth rythm;progresse à un trés bon rythme;;;;;;;;;;;;x
-avancement_down;progresses slower than it should;malheureusement piétine;;;;;;;;;;;;x
-avancement_stop;is sadly stooped for now;est malheureusement a l'arrêt pour le moment;;;;;;;;;;;;x
+ca_cathedrale_01_shorter;building site overture;'ouverture du chantier;Baugelände Antrag;;;;;;;;;;;x
+ca_cathedrale_02_shorter;foundations;es fondations;Fundament;;;;;;;;;;;x
+ca_cathedrale_03_shorter;proto-cathedral;a proto-cathédrale;Proto-Kathedrale;;;;;;;;;;;x
+ca_cathedrale_04_shorter;portal;e portail;Portal;;;;;;;;;;;x
+ca_cathedrale_05_shorter;magnificent Nave;a nef Magnifique;grossartiges Kirchenschiff;;;;;;;;;;;x
+ca_cathedrale_06_shorter;transept;e transept;Kreuzschiff;;;;;;;;;;;x
+ca_cathedrale_07_shorter;northern tower;a tour Nord;Nordturm;;;;;;;;;;;x
+ca_cathedrale_08_shorter;nouthern tower;a tour du Midi;Südturm;;;;;;;;;;;x
+ca_cathedrale_09_shorter;rose window;a grande Rosace;Rosen-Fenster;;;;;;;;;;;x
+ca_cathedrale_10_shorter;feudal Chapel;a chapelle Seigneuriale;feudale Kapelle;;;;;;;;;;;x
+ct_cathedrale_10_shorter;chime;e carillon;Glocke;;;;;;;;;;;x
+tp_cathedrale_10_shorter;most holy chapel;a trés Sainte Chapelle;allerheiligste Kapelle;;;;;;;;;;x
+ca_cathedrale_11_shorter;celestial spire;a flèche Céleste;himmlische Spitze;;;;;;;;;;;x
+ca_cathedrale_12_shorter;finishings;es finitions;Ausarbeitung;;;;;;;;;;;x
+avancement_normal;progresses on schedule;progresse selon les délais prévus;verläuft wie geplant;;;;;;;;;;;x
+avancement_up;progresses with a smooth rythm;progresse à un trés bon rythme;verläuft reibungslos;;;;;;;;;;;x
+avancement_down;progresses slower than it should;malheureusement piétine;verläuft langsamer als es sollte;;;;;;;;;;;x
+avancement_stop;is sadly stooped for now;est malheureusement a l'arrêt pour le moment;wurde bis auf Weiteres eingestellt;;;;;;;;;;;x
 #;;PASS;;;;;;;;;;;;x
-col_minor_descA;which lies between mounts covered by snow in winter;qui s'engouffre entre les monts couverts de neige à la froide saison;;;;;;;;;;;;x
-col_minor_descB;whick has a pretty bad reputation;qui a cependant mauvaise réputation pour les voyageurs;;;;;;;;;;;;x
-col_minor_descC;which lonely attraction is its pastures;qui n'est guère prisé que pour ces alpages proches;;;;;;;;;;;;x
-col_minor_descD;where few actually dare venturing;où néanmoins peu osent s'aventurer;;;;;;;;;;;;x
-col_major_descA;which ventures between snowy pikes;qui s'engouffre entre les cimes enneigées été comme hiver;;;;;;;;;;;;x
-col_major_descB;which is feared by most travellers;dont le passgage est redouté par nombre de voyageurs;;;;;;;;;;;;x
-col_major_descC;which lonely attraction is its pastures;qui n'est guère prisé que pour ces alpages proches;;;;;;;;;;;;x
-col_major_descD;where few actually dare venturing;où néanmoins peu osent s'aventurer;;;;;;;;;;;;x
+col_minor_descA;which lies between mounts covered by snow in winter;qui s'engouffre entre les monts couverts de neige à la froide saison;welches zwischen im Winter eingeschneiten Bergen liegt.;;;;;;;;;;;x
+col_minor_descB;whick has a pretty bad reputation;qui a cependant mauvaise réputation pour les voyageurs;welches einen ziemlich schlechten Ruf hat.;;;;;;;;;;;x
+col_minor_descC;which lonely attraction is its pastures;qui n'est guère prisé que pour ces alpages proches;welche einzige Attraktion seine Weiden sind;;;;;;;;;;;x
+col_minor_descD;where few actually dare venturing;où néanmoins peu osent s'aventurer;wo nur wenige sich hin trauen;;;;;;;;;;;x
+col_major_descA;which ventures between snowy pikes;qui s'engouffre entre les cimes enneigées été comme hiver;welches über verschneite Gipfel geht;;;;;;;;;;;x
+col_major_descB;which is feared by most travellers;dont le passgage est redouté par nombre de voyageurs;welches von vielen Reisenden gefürchtet wird;;;;;;;;;;;x
+col_major_descC;which lonely attraction is its pastures;qui n'est guère prisé que pour ces alpages proches;welche einzige Attraktion seine Weiden sind;;;;;;;;;;;x
+col_major_descD;where few actually dare venturing;où néanmoins peu osent s'aventurer;wo sich nur wenige hin trauen;;;;;;;;;;;x
 #;;ROUTES;;;;;;;;;;;;x
-TYPE_route_terrestre;land;terrestre;;;;;;;;;;;;x
-TYPE_route_fluviale;fluvial;fluviale;;;;;;;;;;;;x
-TYPE_modifier_route_terrestre;trade Route;route de commerce;;;;;;;;;;;;x
-TYPE_modifier_route_fluviale;river Trade Route;voie commerciale fluviale;;;;;;;;;;;;x
+TYPE_route_terrestre;land;terrestre;Land;;;;;;;;;;;x
+TYPE_route_fluviale;fluvial;fluviale;flussartig;;;;;;;;;;;x
+TYPE_modifier_route_terrestre;trade Route;route de commerce;Handelsroute;;;;;;;;;;;x
+TYPE_modifier_route_fluviale;river Trade Route;voie commerciale fluviale;Fluss-Handelsroute;;;;;;;;;;;x
 #;;VARIOUS FLAVOUR;;;;;;;;;;;;x
 #;blablabla se passe GetTopographicalFlavour...;;;;;;;;;;;;x
-danslest;in the East of the province;dans l'Est de la province;;;;;;;;;;;;x
-danslouest;in the West of the province;dans l'Ouest de la province;;;;;;;;;;;;x
-danslenord;in the North of the province;dans le Nord de la province;;;;;;;;;;;;x
-danslesud;in the South of the province;dans le Sud de la province;;;;;;;;;;;;x
-plusaunord;northern from here;plus au Nord d'ici;;;;;;;;;;;;x
-plusausud;southern from here;plus au Sud d'ici;;;;;;;;;;;;x
-plusalest;eastern from here;plus à l'Est d'ici;;;;;;;;;;;;x
-plusalouest;western from here;plus à l'Ouest d'ici;;;;;;;;;;;;x
-nonloin;not far from here;non loin d'ici;;;;;;;;;;;;x
-pastresloin;not very far from here;pas très loin d'ici;;;;;;;;;;;;x
-aquelqueslieues;a few leagues from here;a quelques lieues d'ici;;;;;;;;;;;;x
-parlesmonts;beyond the mounts;au delà des monts;;;;;;;;;;;;x
-parlesbois;beyond the woods;au delà des bois;;;;;;;;;;;;x
-plusloinplaine;farther in the plain;plus loin dans la plaine;;;;;;;;;;;;x
-pardelalacote;beyond the hills;par delà le côteau;;;;;;;;;;;;x
-pardelalesdunes;beyond many dunes;par delà de nombreuses dunes;;;;;;;;;;;;x
-plusloinsurlacote;further following the coast;plus loin en suivant la côte;;;;;;;;;;;;x
-plusloinsurlacote_alt;further longing the coast;plus loin en longeant la côte;;;;;;;;;;;;x
+danslest;in the East of the province;dans l'Est de la province;im Osten der Provinz;;;;;;;;;;;x
+danslouest;in the West of the province;dans l'Ouest de la province;im Westen der Provinz;;;;;;;;;;;x
+danslenord;in the North of the province;dans le Nord de la province;im Norden der Provinz;;;;;;;;;;;x
+danslesud;in the South of the province;dans le Sud de la province;im Süden der Provinz;;;;;;;;;;;x
+plusaunord;northern from here;plus au Nord d'ici;nördlich von hier;;;;;;;;;;;x
+plusausud;southern from here;plus au Sud d'ici;südlich von hier;;;;;;;;;;;x
+plusalest;eastern from here;plus à l'Est d'ici;östlich von hier;;;;;;;;;;;x
+plusalouest;western from here;plus à l'Ouest d'ici;westlich von hier;;;;;;;;;;;x
+nonloin;not far from here;non loin d'ici;nicht fern von hier;;;;;;;;;;;x
+pastresloin;not very far from here;pas très loin d'ici;nicht sehr weit von hier;;;;;;;;;;;x
+aquelqueslieues;a few leagues from here;a quelques lieues d'ici;einige Leugen von hier;;;;;;;;;;;x
+parlesmonts;beyond the mounts;au delà des monts;hinter den Bergen;;;;;;;;;;;x
+parlesbois;beyond the woods;au delà des bois;hinter den Wäldern;;;;;;;;;;;x
+plusloinplaine;farther in the plain;plus loin dans la plaine;weiter in der Ebene;;;;;;;;;;;x
+pardelalacote;beyond the hills;par delà le côteau;hinter den Hügeln;;;;;;;;;;;x
+pardelalesdunes;beyond many dunes;par delà de nombreuses dunes;hinter den vielen Dünen;;;;;;;;;;;x
+plusloinsurlacote;further following the coast;plus loin en suivant la côte;der Küste folgend;;;;;;;;;;;x
+plusloinsurlacote_alt;further longing the coast;plus loin en longeant la côte;weiter der Küste folgend;;;;;;;;;;;x
 #;GetRouteRank;;;;;;;;;;;;x
-routecomtale;the Count's road;la route Comtale;;;;;;;;;;;;x
-routeducale;the ducal road;la route Ducale;;;;;;;;;;;;x
-routeduroi;the King's road;la route du Roi;;;;;;;;;;;;x
-routedesrois;the road of the Kings;la route des Rois;;;;;;;;;;;;x
-routeimperiale;the imperial route;la route impériale;;;;;;;;;;;;x
-theroute;the Long road;la Route longue;;;;;;;;;;;;x
-theway;the Great path;la Grande route;;;;;;;;;;;;x
+routecomtale;the Count's road;la route Comtale;des Grafen's Strasse;;;;;;;;;;;x
+routeducale;the ducal road;la route Ducale;die herzögliche Strasse;;;;;;;;;;;x
+routeduroi;the King's road;la route du Roi;die Königsstrasse;;;;;;;;;;;x
+routedesrois;the road of the Kings;la route des Rois;die Strasse der Könige;;;;;;;;;;;x
+routeimperiale;the imperial route;la route impériale;die Imperiale Route;;;;;;;;;;;x
+theroute;the Long road;la Route longue;die lange Strasse;;;;;;;;;;;x
+theway;the Great path;la Grande route;der grosse Weg;;;;;;;;;;;x
 #DESCL3T.33;;Il faut pour cela emprunter [Location.GetRouteRank] et se rendre [Location.GetTopographicalFlavour] pour enfin trouver où se terrent ces vils gredins et les défaire une bonne fois pour toutes !;;;;;;;;;;;x
 #;GetCutStoneMaterial;;;;;;;;;;;;x
-someoldwall;some old wall from the past;un mur ancien, témoin d'un passé oublié;;;;;;;;;;;;x
-someruins;some ruins from forgotten times;des ruines d'origine inconnue;;;;;;;;;;;;x
-someoldfort;some remains of an old fort;les restes de ce vieux fort;;;;;;;;;;;;x
-someoldtemple;that strange and old temple;cet ancien et étrange temple;;;;;;;;;;;;x
-someoldtower;an half fallen tower;cette tour à demi écroulée;;;;;;;;;;;;x
-someoldpavedroute;that old scrappy paved road;cette voie pavée inutilisable;;;;;;;;;;;;x
+someoldwall;some old wall from the past;un mur ancien, témoin d'un passé oublié;einige alte Wälle aus vergangenen Zeiten;;;;;;;;;;;x
+someruins;some ruins from forgotten times;des ruines d'origine inconnue;einige Ruinen aus längst vergessenen Zeiten;;;;;;;;;;;x
+someoldfort;some remains of an old fort;les restes de ce vieux fort;einige Überbleibsel eines alten Forts;;;;;;;;;;;x
+someoldtemple;that strange and old temple;cet ancien et étrange temple;dieser seltsame alte Tempel;;;;;;;;;;;x
+someoldtower;an half fallen tower;cette tour à demi écroulée;ein halb zerfallener Turm;;;;;;;;;;;x
+someoldpavedroute;that old scrappy paved road;cette voie pavée inutilisable;diese alte kaum gepflasterte Strasse;;;;;;;;;;;x
 #;GetDeDapostrophe;;;;;;;;;;;;x
-get_d_apostrophe;of ;d';;;;;;;;;;x
-get_de;of ;de ;;;;;;;;;;x
+get_d_apostrophe;of ;d';von;;;;;;;;;x
+get_de;of ;de ;von;;;;;;;;;x
 #;GetEnA;;;;;;;;;;;;x
-get_en_prov;in ;en ;;;;;;;;;;;;x
-get_a_prov;in ;à ;;;;;;;;;;;;x
+get_en_prov;in ;en ;in;;;;;;;;;;;x
+get_a_prov;in ;à ;in;;;;;;;;;;;x
